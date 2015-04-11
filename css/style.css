@@ -1508,3 +1508,10 @@ html,body {
 	margin-top: 170px !important;
 	position: absolute;
 }
+
+.logoAnimatedEnd {
+	-webkit-animation-delay: 1.8s;
+	-webkit-animation: play 1.8s steps(44) forwards;
+	animation-delay: 1.8s;
+	animation: play 1.8s steps(44) forwards;
+}

@@ -101,4 +101,4 @@
 .hiddenLeft{-webkit-transform:translateX(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(-1000px);transition:-webkit-transform .4s}
 .contentShowX{-webkit-transform:translateX(0);transform:translateX(0)}.hiddenBottom{-webkit-transform:translateY(1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(1000px);transition:-webkit-transform .4s}
 .hiddenTop{-webkit-transform:translateY(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(-1000px);transition:-webkit-transform .4s}
-.contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}
+.contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.logoAnimatedEnd{-webkit-animation-delay:1.8s;-webkit-animation:play 1.8s steps(44) forwards;animation-delay:1.8s;animation:play 1.8s steps(44) forwards}

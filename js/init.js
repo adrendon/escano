@@ -21,7 +21,7 @@ function disableAnimate() {
     setTimeout(function () {
         pages.forEach(function (element) {
             if (element !== 0) {
-                jQuery('div[page=' + element + '] .animated').removeClass('animated fadeInRight fadeInLeft fadeInDown fadeInUp logoAnimated');
+                jQuery('div[page=' + element + '] .animated').removeClass('animated fadeInRight fadeInLeft fadeInDown fadeInUp logoAnimated logoAnimatedEnd');
             }
         });
     }, 4000);
