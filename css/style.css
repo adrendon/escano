@@ -1501,3 +1501,8 @@ html,body {
 	-webkit-transform: translateY(0);
 	transform: translateX(0);
 }
+
+.contraportada {
+	margin-top: 170px !important;
+	position: absolute;
+}
