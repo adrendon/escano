@@ -85,6 +85,8 @@ function hideContebtVentajas() {
         jQuery('.btnMenuGallery').removeClass('btnMenuGalleryMostrar');
         jQuery('.contentGallery').removeClass('contentGalleryMostrar');
         jQuery('.contentMostrar').removeClass('contentMostrar');
+        jQuery('.contentShowX').removeClass('contentShowX');
+        jQuery('.contentPage014 > div').removeClass('slide');
     }, delay);
 }
 
