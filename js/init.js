@@ -182,6 +182,7 @@ function galleryItems($this) {
 function contactenos($this) {
     var idContent = jQuery($this).parent().attr('href');
     var subMenu = jQuery('.p15').find('.thumbnails');
+    var mapas = jQuery('.p15').find('.iframe');
 
     var elemContent = jQuery(idContent);
     if (elemContent.hasClass('slide')) {
@@ -193,6 +194,10 @@ function contactenos($this) {
 
     if (subMenu.hasClass('contentShowX')) {
         subMenu.removeClass('contentShowX');
+    }
+
+     if (mapas.hasClass('contentShowX')) {
+        mapas.removeClass('contentShowX');
     }
 }
 
