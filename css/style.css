@@ -1409,6 +1409,7 @@ html,body {
 
 .imagesPage14 li:nth-child(3) {
 	top: 65%;
+	margin-left: 4% !important;
 }
 
 .contentPage014 > div{
@@ -1447,13 +1448,14 @@ html,body {
 }
 
 .iframes {
-	position: relative;
-    top: 15%;
+	position: absolute;;
+    top: 35%;
 }
 
 .iframes .iframe {
-  position: absolute;
-  top: 15%;
+	position: absolute;;
+	height: 510px;
+	width: 880px;
 }
 
 /* CONTENIDO OCULTO DERECHA */

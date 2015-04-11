@@ -94,9 +94,9 @@
 .btnMenuGalleryMostrar{-webkit-transform:translate(0,105%);float:left;left:50%;position:relative}.btnMenuGalleryMostrar ul{position:relative;right:50%}
 .contentGallery{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;position:absolute;right:2%;top:28%}.contentGalleryMostrar{-webkit-transform:translateX(0);text-align:center;width:100%}
 .contentGalleryMostrar img{margin:auto!important}.imagesPage14 li{position:absolute;margin-left:8%!important}.imagesPage14 li:nth-child(1){top:15%}.imagesPage14 li:nth-child(2){top:40%}
-.imagesPage14 li:nth-child(3){top:65%}.contentPage014>div{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
+.imagesPage14 li:nth-child(3){top:65%;margin-left:4%!important}.contentPage014>div{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
 .contentPage014 .slide{-webkit-transform:translateX(0)}.contentPage014 img{bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
-.thumbnails li{display:inline-block}.thumbnails{position:relative;top:15%}.iframes{position:relative;top:15%}.iframes .iframe{position:absolute;top:15%}
+.thumbnails li{display:inline-block}.thumbnails{position:relative;top:15%}.iframes{position:absolute;top:35%}.iframes .iframe{position:absolute;height:510px;width:880px}
 .hiddenRight{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(1000px);transition:-webkit-transform .4s}
 .hiddenLeft{-webkit-transform:translateX(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(-1000px);transition:-webkit-transform .4s}
 .contentShowX{-webkit-transform:translateX(0);transform:translateX(0)}.hiddenBottom{-webkit-transform:translateY(1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(1000px);transition:-webkit-transform .4s}
