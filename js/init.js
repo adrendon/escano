@@ -410,6 +410,7 @@ function mapa ($this) {
 window.onload = function () {
 
     disableAnimate();
+    initialize();
 
     jQuery('.prev, .next').on('click', function () {
         disableAnimate();

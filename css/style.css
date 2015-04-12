@@ -1518,8 +1518,3 @@ html,body {
 .zIndex {
 	z-index: 2
 }
-
-.end {
-	-webkit-animation-delay: 1.4s;
-	animation-delay: 1.4s;
-}
