@@ -1515,3 +1515,7 @@ html,body {
 	animation-delay: 1.8s;
 	animation: play 1.8s steps(44) forwards;
 }
+
+.zIndex {
+	z-index: 2
+}
