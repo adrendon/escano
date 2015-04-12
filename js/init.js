@@ -407,6 +407,8 @@ var marker003 = new google.maps.Marker({
 
 }
 
+google.maps.event.addDomListener(window, 'load', initialize);
+
 window.onload = function () {
 
     disableAnimate();
