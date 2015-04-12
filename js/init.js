@@ -87,7 +87,7 @@ function hideContebtVentajas() {
         jQuery('.contentMostrar').removeClass('contentMostrar');
         jQuery('.contentShowX').removeClass('contentShowX');
         jQuery('.contentPage014 > div').removeClass('slide');
-    }, delay);
+    }, delayTwo);
 }
 
 //Page 008 - 009
@@ -426,4 +426,4 @@ window.onload = function () {
 
 };
 
-google.maps.event.addDomListener(window, 'load', initialize);
+jQuery(document).ready(function() { initialize(); });
