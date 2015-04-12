@@ -317,9 +317,13 @@ function initialize() {
         ]
     }
 ];
-  var myGent = new google.maps.LatLng(6.257522,-75.564547);
-  var Kine = new google.maps.LatLng(6.257522,-75.564547);
-  var mapOptions = {
+  var myGente = new google.maps.LatLng(6.257522,-75.564547);
+  var Kinee = new google.maps.LatLng(6.257522,-75.564547);
+  var myGentee = new google.maps.LatLng(6.257522,-75.564547);
+  var Kineee = new google.maps.LatLng(6.257522,-75.564547);
+  var myGenteee = new google.maps.LatLng(6.257522,-75.564547);
+  var Kineeee = new google.maps.LatLng(6.257522,-75.564547);
+  var mapOptions001 = {
     zoom: 18,
      mapTypeControl: false,
     zoomControl: true,
@@ -331,38 +335,69 @@ function initialize() {
     mapTypeId: MY_MAPTYPE_ID,
     scaleControl: false,
     streetViewControl: false,
-    center: myGent
+    center: myGente
   }
-  var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions);
-  var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions);
-  var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions);
+  var mapOptions002 = {
+    zoom: 18,
+     mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_TOP,
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID,
+    scaleControl: false,
+    streetViewControl: false,
+    center: myGentee
+  }
+  var mapOptions003 = {
+    zoom: 18,
+     mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_TOP,
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID,
+    scaleControl: false,
+    streetViewControl: false,
+    center: myGenteee
+  }
+  var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions001);
+  var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions002);
+  var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions003);
 
   var styledMapOptions = {
     name: 'Stylo001'
   };
 
 var image = 'img/14_15/marcador.png';
-  var marker001 = new google.maps.Marker({
-      position: Kine,
-      map: mapa001,
-animation: google.maps.Animation.DROP,
-      title: 'Map 01',
-icon: image
-  });
+
+var marker001 = new google.maps.Marker({
+    position: Kinee,
+    map: mapa001,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 01',
+    icon: image
+});
+
 var marker002 = new google.maps.Marker({
-      position: Kine,
-      map: mapa002,
-animation: google.maps.Animation.DROP,
-      title: 'Map 02',
-icon: image
-  });
+    position: Kineee,
+    map: mapa002,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 02',
+    icon: image
+});
+
 var marker003 = new google.maps.Marker({
-      position: Kine,
-      map: mapa003,
-animation: google.maps.Animation.DROP,
-      title: 'Map 03',
-icon: image
-  });
+    position: Kineeee,
+    map: mapa003,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 03',
+    icon: image
+});
 
   var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 
