@@ -1,3 +1,7 @@
+jQuery(document).ready(function() { initialize(); });
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
 jQuery('#fb5-book').on('click', function (e) {
     e.preventDefault();
 });
@@ -407,8 +411,6 @@ var marker003 = new google.maps.Marker({
 
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
-
 window.onload = function () {
 
     disableAnimate();
@@ -427,5 +429,3 @@ window.onload = function () {
     });
 
 };
-
-jQuery(document).ready(function() { initialize(); });
