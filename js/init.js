@@ -104,28 +104,22 @@ function servicios($this) {
             jQuery('.btnMenu').removeClass('btnMenuMostrar');
             subMenu.addClass('btnMenuMostrar');
         }
-    }, delay);
+    }, 400);
     jQuery('li[data-item]').removeClass('serviceActive');
     jQuery($this).parent().parent().addClass('serviceActive');
     jQuery('.serviciosMain').addClass('serviciosMainActive');
     jQuery('.imgBtnLeft').addClass('imgBtnLeftActive');
     jQuery('.imgBtnRight').addClass('imgBtnRightActive');
 
-    setTimeout(function () {
-        if (jQuery('.imgPage').hasClass('zIndex')) {
-            jQuery('.imgPage').removeClass('zIndex');
-        }
-    }, 250);
+    if (jQuery('.imgPage').hasClass('zIndex')) {
+        jQuery('.imgPage').removeClass('zIndex');
+    }
 }
 
 function serviciosItem($this) {
     var idElemContent = jQuery($this).parent().attr('href');
     var elemContent = jQuery(idElemContent);
-
-    setTimeout(function () {
-        jQuery('.imgPage').addClass('zIndex');
-    }, 250);
-
+    jQuery('.imgPage').addClass('zIndex');
     if (elemContent.hasClass('contentMostrar')) {
         elemContent.removeClass('contentMostrar');
     } else {
