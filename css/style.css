@@ -1438,18 +1438,24 @@ html,body {
 	top: 0;
 }
 
-.thumbnails li {
-    display: inline-block;
-}
-
 .thumbnails {
     position: relative;
     top: 15%;
 }
 
+.thumbnails li {
+	display: inline-block;
+	margin: auto;
+	width: 33%;
+}
+
+.thumbnails li img {
+	margin: auto;
+}
+
 .iframes {
 	position: absolute;;
-    top: 35%;
+    top: 40%;
 }
 
 .iframes .iframe {
@@ -1509,13 +1515,11 @@ html,body {
 	position: absolute;
 }
 
-.logoAnimatedEnd {
-	-webkit-animation-delay: 1.8s;
-	-webkit-animation: play 1.8s steps(44) forwards;
-	animation-delay: 1.8s;
-	animation: play 1.8s steps(44) forwards;
-}
-
 .zIndex {
 	z-index: 2
+}
+
+.end {
+	-webkit-animation-delay: 1.4s;
+	animation-delay: 1.4s;
 }

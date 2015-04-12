@@ -1,6 +1,175 @@
-jQuery(document).ready(function() { initialize(); });
+var MY_MAPTYPE_ID = 'Stylo001';
 
-google.maps.event.addDomListener(window, 'load', initialize);
+function initialize() {
+  var featureOpts = [
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#81BDD6"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    }
+];
+  var myGente = new google.maps.LatLng(6.257522,-75.564547);
+  var Kinee = new google.maps.LatLng(6.257522,-75.564547);
+  var myGentee = new google.maps.LatLng(6.257522,-75.564547);
+  var Kineee = new google.maps.LatLng(6.257522,-75.564547);
+  var myGenteee = new google.maps.LatLng(6.257522,-75.564547);
+  var Kineeee = new google.maps.LatLng(6.257522,-75.564547);
+  var mapOptions001 = {
+    zoom: 18,
+     mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_TOP,
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID,
+    scaleControl: false,
+    streetViewControl: false,
+    center: myGente
+  }
+  var mapOptions002 = {
+    zoom: 18,
+     mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_TOP,
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID,
+    scaleControl: false,
+    streetViewControl: false,
+    center: myGentee
+  }
+  var mapOptions003 = {
+    zoom: 18,
+     mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_TOP,
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID,
+    scaleControl: false,
+    streetViewControl: false,
+    center: myGenteee
+  }
+  var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions001);
+  var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions002);
+  var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions003);
+
+  var styledMapOptions = {
+    name: 'Stylo001'
+  };
+
+var image = 'img/14_15/marcador.png';
+
+var marker001 = new google.maps.Marker({
+    position: Kinee,
+    map: mapa001,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 01',
+    icon: image
+});
+
+var marker002 = new google.maps.Marker({
+    position: Kineee,
+    map: mapa002,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 02',
+    icon: image
+});
+
+var marker003 = new google.maps.Marker({
+    position: Kineeee,
+    map: mapa003,
+    animation: google.maps.Animation.DROP,
+    title: 'Map 03',
+    icon: image
+});
+
+  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+  mapa001.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+  mapa002.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+  mapa003.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
+}
 
 jQuery('#fb5-book').on('click', function (e) {
     e.preventDefault();
@@ -238,179 +407,6 @@ function mapa ($this) {
     }
 }
 
-var MY_MAPTYPE_ID = 'Stylo001';
-
-function initialize() {
-  var featureOpts = [
-    {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#444444"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#f2f2f2"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 45
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#81BDD6"
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    }
-];
-  var myGente = new google.maps.LatLng(6.257522,-75.564547);
-  var Kinee = new google.maps.LatLng(6.257522,-75.564547);
-  var myGentee = new google.maps.LatLng(6.257522,-75.564547);
-  var Kineee = new google.maps.LatLng(6.257522,-75.564547);
-  var myGenteee = new google.maps.LatLng(6.257522,-75.564547);
-  var Kineeee = new google.maps.LatLng(6.257522,-75.564547);
-  var mapOptions001 = {
-    zoom: 18,
-     mapTypeControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-        style: google.maps.ZoomControlStyle.LARGE,
-        position: google.maps.ControlPosition.LEFT_TOP,
-      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-    },
-    mapTypeId: MY_MAPTYPE_ID,
-    scaleControl: false,
-    streetViewControl: false,
-    center: myGente
-  }
-  var mapOptions002 = {
-    zoom: 18,
-     mapTypeControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-        style: google.maps.ZoomControlStyle.LARGE,
-        position: google.maps.ControlPosition.LEFT_TOP,
-      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-    },
-    mapTypeId: MY_MAPTYPE_ID,
-    scaleControl: false,
-    streetViewControl: false,
-    center: myGentee
-  }
-  var mapOptions003 = {
-    zoom: 18,
-     mapTypeControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-        style: google.maps.ZoomControlStyle.LARGE,
-        position: google.maps.ControlPosition.LEFT_TOP,
-      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-    },
-    mapTypeId: MY_MAPTYPE_ID,
-    scaleControl: false,
-    streetViewControl: false,
-    center: myGenteee
-  }
-  var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions001);
-  var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions002);
-  var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions003);
-
-  var styledMapOptions = {
-    name: 'Stylo001'
-  };
-
-var image = 'img/14_15/marcador.png';
-
-var marker001 = new google.maps.Marker({
-    position: Kinee,
-    map: mapa001,
-    animation: google.maps.Animation.DROP,
-    title: 'Map 01',
-    icon: image
-});
-
-var marker002 = new google.maps.Marker({
-    position: Kineee,
-    map: mapa002,
-    animation: google.maps.Animation.DROP,
-    title: 'Map 02',
-    icon: image
-});
-
-var marker003 = new google.maps.Marker({
-    position: Kineeee,
-    map: mapa003,
-    animation: google.maps.Animation.DROP,
-    title: 'Map 03',
-    icon: image
-});
-
-  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-
-  mapa001.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-  mapa002.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-  mapa003.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-
-}
-
 window.onload = function () {
 
     disableAnimate();
@@ -426,6 +422,8 @@ window.onload = function () {
 
         hideContebtVentajas();
         gallery();
+        initialize();
     });
+
 
 };
