@@ -96,9 +96,11 @@
 .contentGalleryMostrar img{margin:auto!important}.imagesPage14 li{position:absolute;margin-left:8%!important}.imagesPage14 li:nth-child(1){top:15%}.imagesPage14 li:nth-child(2){top:40%}
 .imagesPage14 li:nth-child(3){top:65%;margin-left:4%!important}.contentPage014>div{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
 .contentPage014 .slide{-webkit-transform:translateX(0)}.contentPage014 img{bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
-.thumbnails{position:relative;top:15%}.thumbnails li{display:inline-block;margin:auto;width:33%}.thumbnails li img{margin:auto}.iframes{position:absolute;top:40%}
+.thumbnails{position:relative;top:15%}.thumbnails li{display:inline-block;margin:auto;width:33%}.thumbnails li a img{margin:auto!important}.iframes{position:absolute;top:40%}
 .iframes .iframe{position:absolute;height:510px;width:880px}.hiddenRight{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(1000px);transition:-webkit-transform .4s}
 .hiddenLeft{-webkit-transform:translateX(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(-1000px);transition:-webkit-transform .4s}
 .contentShowX{-webkit-transform:translateX(0);transform:translateX(0)}.hiddenBottom{-webkit-transform:translateY(1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(1000px);transition:-webkit-transform .4s}
 .hiddenTop{-webkit-transform:translateY(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(-1000px);transition:-webkit-transform .4s}
-.contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.zIndex{z-index:2}
+.contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.zIndex{z-index:2}.animatedLogoEnd{background-position:0 0;background:url('../img/portada/logo.png')!important;height:382px;margin:auto;max-width:100%;width:888px}
+.logoAnimatedEnd{-webkit-animation-delay:1.4s;-webkit-animation:playTwo 1.8s steps(44) forwards;animation-delay:1.4s;animation:playTwo 1.8s steps(44) forwards}
+@keyframes playTwo{100%{background-position:0 16808px}}@-webkit-keyframes playTwo{100%{background-position:0 16808px}}

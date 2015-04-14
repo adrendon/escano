@@ -83,10 +83,10 @@ function initialize() {
 ];
   var myGente = new google.maps.LatLng(6.257522,-75.564547);
   var Kinee = new google.maps.LatLng(6.257522,-75.564547);
-  var myGentee = new google.maps.LatLng(6.257522,-75.564547);
-  var Kineee = new google.maps.LatLng(6.257522,-75.564547);
-  var myGenteee = new google.maps.LatLng(6.257522,-75.564547);
-  var Kineeee = new google.maps.LatLng(6.257522,-75.564547);
+  var myGentee = new google.maps.LatLng(6.161903,-75.605361);
+  var Kineee = new google.maps.LatLng(6.161903,-75.605361);
+  var myGenteee = new google.maps.LatLng(6.554111,-75.822972);
+  var Kineeee = new google.maps.LatLng(6.554111,-75.822972);
   var mapOptions001 = {
     zoom: 18,
      mapTypeControl: false,
@@ -142,7 +142,7 @@ var image = 'img/14_15/marcador.png';
 var marker001 = new google.maps.Marker({
     position: Kinee,
     map: mapa001,
-    animation: google.maps.Animation.DROP,
+    animation: google.maps.Animation.BOUNCE,
     title: 'Map 01',
     icon: image
 });
@@ -150,7 +150,7 @@ var marker001 = new google.maps.Marker({
 var marker002 = new google.maps.Marker({
     position: Kineee,
     map: mapa002,
-    animation: google.maps.Animation.DROP,
+    animation: google.maps.Animation.BOUNCE,
     title: 'Map 02',
     icon: image
 });
@@ -158,7 +158,7 @@ var marker002 = new google.maps.Marker({
 var marker003 = new google.maps.Marker({
     position: Kineeee,
     map: mapa003,
-    animation: google.maps.Animation.DROP,
+    animation: google.maps.Animation.BOUNCE,
     title: 'Map 03',
     icon: image
 });
@@ -171,9 +171,14 @@ var marker003 = new google.maps.Marker({
 
 }
 
-jQuery('#fb5-book').on('click', function (e) {
+jQuery('#fb5-book').not('.web').on('click', function (e) {
     e.preventDefault();
 });
+
+
+// jQuery('#fb5-book').not('.contentPage014_002 a').on('click', function(e) {
+//     e.preventDefault();
+// });
 
 //variables
 
