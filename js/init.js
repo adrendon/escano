@@ -175,11 +175,6 @@ jQuery('#fb5-book').not('.web').on('click', function (e) {
     e.preventDefault();
 });
 
-
-// jQuery('#fb5-book').not('.contentPage014_002 a').on('click', function(e) {
-//     e.preventDefault();
-// });
-
 //variables
 
 var swMenuServicios = false;
