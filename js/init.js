@@ -171,9 +171,9 @@ var marker003 = new google.maps.Marker({
 
 }
 
-// jQuery('#fb5-book').not('.web').on('click', function (e) {
-//     e.preventDefault();
-// });
+jQuery('#fb5-book').not('.web').on('click', function (e) {
+    e.preventDefault();
+});
 
 
 
@@ -428,10 +428,10 @@ window.onload = function () {
         initialize();
     });
 
-    jQuery('a').on('click', function (e) {
-       if (!jQuery(this).hasClass('web')) {
-           e.preventDefault();
-       }
-    });
+    // jQuery('a').on('click', function (e) {
+    //    if (!jQuery(this).hasClass('web')) {
+    //        e.preventDefault();
+    //    }
+    // });
 
 };
