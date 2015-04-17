@@ -1515,31 +1515,12 @@ html,body {
 	position: absolute;
 }
 
+.contraportada img {
+	max-width: 80%;
+	margin: auto !important;
+}
+
 .zIndex {
 	z-index: 2
 }
 
-
-.animatedLogoEnd {
-  background-position: 0 0;
-  background: url('../img/portada/logo.png') !important;
-  height: 382px;
-  margin: auto;
-  max-width: 100%;
-  width: 888px;
-}
-
-.logoAnimatedEnd {
-	-webkit-animation-delay: 1.4s;
-	-webkit-animation: playTwo 1.8s steps(44) forwards;
-	animation-delay: 1.4s;
-	animation: playTwo 1.8s steps(44) forwards;
-}
-
-@keyframes playTwo {
-	100% { background-position: 0  16808px;}
-}
-
-@-webkit-keyframes playTwo {
-	100% { background-position: 0  16808px;}
-}
