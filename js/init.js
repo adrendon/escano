@@ -171,13 +171,6 @@ var marker003 = new google.maps.Marker({
 
 }
 
-jQuery('#fb5-book').not('.web').on('click', function (e) {
-    e.preventDefault();
-});
-
-
-
-
 //variables
 
 var swMenuServicios = false;
@@ -409,6 +402,16 @@ function mapa ($this) {
         elemContent.addClass('contentShowX');
     }
 }
+
+function OpenInNewTab($this) {
+   var url = jQuery($this).attr('href');
+   var win = window.open(url, '_blank');
+   win.focus();
+}
+
+jQuery('#fb5-book').on('click', function (e) {
+    e.preventDefault();
+});
 
 window.onload = function () {
 
