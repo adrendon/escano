@@ -70,7 +70,7 @@
 .block_left,.block_Right{bottom:0;height:546px;left:0;margin:auto!important;position:absolute;right:0;top:120px;width:707px;-webkit-transition:-webkit-transform .4s}
 .block_left{-webkit-transform:translateX(-1000px)}.block_Right{-webkit-transform:translateX(1000px)}.blockLeft{-webkit-transition:-webkit-transform .4s;-webkit-transform:translateX(-1000px)}
 .block_Mostrar{-webkit-transform:translateX(0)}.hidden{-webkit-transition:-webkit-transform .4s}.ocultar{-webkit-transform:translateX(-1000px)}.titleLeft,.titleRight{position:absolute;top:90px;-webkit-transition:-webkit-transform .4s}
-.titleLeft{right:0;-webkit-transform:translateX(-1000px)}.titleRight{left:0;-webkit-transform:translateX(1000px)}.titleMostrar{-webkit-transform:translateX(0);cursor:pointer}
+.titleLeft{right:0;-webkit-transform:translateX(-1000px)}.titleRight{left:0;-webkit-transform:translateX(1000px)}.titleMostrar{-webkit-transform:translateX(0)}
 .titleventajas{display:block;-webkit-transition:-webkit-transform .4s;-webkit-transform:translateX(1000px)}.titleventajasMostrar{-webkit-transition:-webkit-transform .4s;display:block!important;-webkit-transform:translateX(0)}
 .leftWidht,.leftWidhtPage{left:0!important;width:960px!important}.page4{width:922px!important}.delay{-webkit-animation-delay:.7s;animation-delay:.7s}.p8 .imgBtnLeft{position:absolute;right:0;top:12%}
 .p9 .imgBtnRight{left:0;position:absolute;top:12%}.p8 ul,.p9 ul{position:absolute!important;top:30%;width:100%}.p8 ul{left:3.5%}.p9 ul{right:-2%}.p8 ul li,.p9 ul li{display:inline-block;vertical-align:top!important;width:30%;margin-right:2%!important}
@@ -79,11 +79,11 @@
 .serviciosMain li:hover img{transform:scale(1.1)}.serviciosMainActive li:hover img{transform:scale(1.1)}.serviciosMainActive li img{display:block;height:auto;margin:auto!important;max-width:60%}
 .serviciosMainActive .serviceActive img{display:block;height:auto;margin:auto!important;max-width:80%;transform:scale(1.02)}.btnMenu{-webkit-transform:translateX(-1000px);-webkit-transition:-webkit-transform .4s;left:2%;position:relative;top:44%;z-index:10000}
 .btnMenuMostrar{-webkit-transform:translateX(0)}.btnMenu li{-webkit-transition:-webkit-transform .4s;width:100%!important;margin-top:5%!important}.btnMenu li:first-child{margin-top:0!important}
-.imgPage{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .8s;bottom:0;height:61%!important;max-width:100%;position:absolute;right:0}
+.imgPage{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .8s;bottom:0;height:61%!important;max-width:100%;position:absolute;right:17px}
 .content{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;height:100%!important;position:absolute;z-index:2}.imgPageMostrar,.contentMostrar{-webkit-transform:translateX(0);s}
-.imgPageMostrar.imgPage001{background:url('../img/8_9/resonancia/foto_big.jpg')!important;width:100%!important}.imgPageMostrar.imgPage002{background:url('../img/8_9/tomografia/foto_big.jpg')!important;width:100%!important}
-.imgPageMostrar.imgPage003{background:url('../img/8_9/ecografia/foto_big.jpg')!important;width:100%!important}.imgPageMostrar.imgPage004{background:url('../img/8_9/mamografia/foto_big.jpg')!important;width:100%!important}
-.imgPageMostrar.imgPage005{background:url('../img/8_9/densitometria/foto_big.jpg')!important;width:100%!important}.imgPageMostrar.imgPage006{background:url('../img/8_9/rayosx/foto_big.jpg')!important;width:100%!important}
+.imgPageMostrar.imgPage001{background:url('../img/8_9/resonancia/foto_big.png')!important;width:98%!important}.imgPageMostrar.imgPage002{background:url('../img/8_9/tomografia/foto_big.png')!important;width:98%!important}
+.imgPageMostrar.imgPage003{background:url('../img/8_9/ecografia/foto_big.png')!important;width:98%!important}.imgPageMostrar.imgPage004{background:url('../img/8_9/mamografia/foto_big.png')!important;width:98%!important}
+.imgPageMostrar.imgPage005{background:url('../img/8_9/densitometria/foto_big.png')!important;width:98%!important}.imgPageMostrar.imgPage006{background:url('../img/8_9/rayosx/foto_big.png')!important;width:98%!important}
 .imgBtnTen{cursor:pointer;position:absolute;top:10%}.bgDown{-webkit-transform:translateY(2000px);-webkit-transition:-webkit-transform .4s}.tituloLeft,.tituloRight{-webkit-transform:translateY(-2000px);-webkit-transition:-webkit-transform .4s}
 .bgDownMostrar,.tituloMostrar{-webkit-transform:translateY(0)}.bg{-webkit-transition:-webkit-transform .4s;position:absolute;top:12%}.p10 .bg{-webkit-transform:translateX(-1000px)}
 .p11 .bg{-webkit-transform:translateX(1000px)}.p10 .bg.bgMostrar,.p11 .bg.bgMostrar{-webkit-transform:translateY(0);position:absolute;top:12%}.p10 .bg,.tituloLeft{right:0}

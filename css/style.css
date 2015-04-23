@@ -1047,7 +1047,7 @@ html,body {
 
 .titleMostrar {
 	-webkit-transform: translateX(0);
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .titleventajas {
@@ -1198,7 +1198,7 @@ html,body {
 	height: 61% !important;
 	max-width: 100%;
 	position: absolute;
-	right: 0;
+	right: 17px;
 }
 
 .content {
@@ -1215,33 +1215,33 @@ html,body {
 }
 
 .imgPageMostrar.imgPage001 {
-	background: url('../img/8_9/resonancia/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/resonancia/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage002 {
-	background: url('../img/8_9/tomografia/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/tomografia/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage003 {
-	background: url('../img/8_9/ecografia/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/ecografia/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage004 {
-	background: url('../img/8_9/mamografia/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/mamografia/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage005 {
-	background: url('../img/8_9/densitometria/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/densitometria/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage006 {
-	background: url('../img/8_9/rayosx/foto_big.jpg') !important;
-	width: 100% !important;
+	background: url('../img/8_9/rayosx/foto_big.png') !important;
+	width: 98% !important;
 }
 
 .imgBtnTen {

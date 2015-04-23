@@ -239,10 +239,10 @@ function hideContebtVentajas() {
     setTimeout(function () {
         jQuery('.contenido > div').removeClass('slide');
         jQuery('.leftWidht').removeClass('leftWidht');
-        jQuery('.titleLeft, .titleRight').removeClass('titleMostrar');
+        // jQuery('.titleLeft, .titleRight').removeClass('titleMostrar');
         jQuery('.btnTitle').removeClass('delay').addClass('titleventajasMostrar');
         jQuery('.hidden').removeClass('ocultar');
-        jQuery('.block_left, .block_Right, .blockLeft').removeClass('block_Mostrar');
+        // jQuery('.block_left, .block_Right, .blockLeft').removeClass('block_Mostrar');
         jQuery('.serviciosMain').removeClass('serviciosMainActive');
         jQuery('.imgPage').removeClass('imgPageMostrar');
         jQuery('.btnMenu').removeClass('btnMenuMostrar');
@@ -282,6 +282,10 @@ function servicios($this) {
 
     if (jQuery('.imgPage').hasClass('zIndex')) {
         jQuery('.imgPage').removeClass('zIndex');
+    }
+
+    if (jQuery('.content').hasClass('contentMostrar')) {
+        jQuery('.content').removeClass('contentMostrar');
     }
 }
 
