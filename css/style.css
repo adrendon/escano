@@ -1214,34 +1214,33 @@ html,body {
 	-webkit-transform: translateX(0);s
 }
 
+.imgPageMostrar {
+	height: 652px !important;
+	width: 941px !important;
+}
+
 .imgPageMostrar.imgPage001 {
 	background: url('../img/8_9/resonancia/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage002 {
 	background: url('../img/8_9/tomografia/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage003 {
 	background: url('../img/8_9/ecografia/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage004 {
 	background: url('../img/8_9/mamografia/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage005 {
 	background: url('../img/8_9/densitometria/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgPageMostrar.imgPage006 {
 	background: url('../img/8_9/rayosx/foto_big.png') !important;
-	width: 98% !important;
 }
 
 .imgBtnTen {
