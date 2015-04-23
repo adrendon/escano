@@ -1194,7 +1194,7 @@ html,body {
 .imgPage {
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.8s;
-	bottom: 0;
+	bottom: 17px;
 	height: 61% !important;
 	max-width: 100%;
 	position: absolute;
