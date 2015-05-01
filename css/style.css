@@ -942,8 +942,8 @@ html,body {
 .content001, .content002, .content003, .content004, .content005, .content006 {
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.4s;
-	background: rgba(3, 36, 65, 0.8) !important;
-	border-radius: 50px !important;
+	/*background: rgba(3, 36, 65, 0.8) !important;
+	border-radius: 50px !important;*/
 	bottom: 0;
 	left: 0;
 	margin: auto !important;
