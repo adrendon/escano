@@ -895,7 +895,6 @@ html,body {
 
 .images_2 {
 	left: 1%;
-	max-width: 590px !important;
 	overflow: hidden !important;
 	position: absolute;
 	top: 1%;
@@ -904,7 +903,7 @@ html,body {
 
 .images_2 li {
 	-webkit-animation-delay: 0.6s;
-	margin-bottom: 5% !important;
+	margin-bottom: 3.2% !important;
 }
 
 .images_2 li:nth-child(1) {
@@ -959,11 +958,11 @@ html,body {
 	height: 518px !important;
 }
 
-.content002 {
+/*.content002 {
 	background: url('../img/2_3/reconocimientos.png') no-repeat !important;
 	width: 861px !important;
 	height: 591px !important;
-}
+}*/
 
 .content003 {
 	background: url('../img/2_3/mision.png') no-repeat !important;
