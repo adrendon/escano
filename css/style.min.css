@@ -50,7 +50,7 @@
 #fb5 #fb5-about h1{color:#64c8d3;font-family:Arial;font-size:26px}#fb5 #fb5-about h2{color:#64c8d3;font-family:Arial;font-size:24px}#fb5-about h3{color:#64c8d3;font-family:Arial;font-size:22px}
 #fb5 #fb5-about h4{color:#64c8d3;font-family:Arial}#fb5 #fb5-about h5{color:#64c8d3;font-family:Arial;font-size:18px}#fb5 #fb5-about h6{color:#64c8d3;font-family:Arial;font-size:16px}
 #fb5 #fb5-button-back{background-color:#64c8d3;color:#fff}#fb5 #fb5-button-back:hover{color:#64c8d3;background-color:#fff}#fb5 .fb5-overlay{background:rgba(0,0,0,0.6)}
-.p4 .fb5-page-book,.p5 .fb5-page-book,.p6 .fb5-page-book,.p7 .fb5-page-book,.p8 .fb5-page-book,.p9 .fb5-page-book,.p10 .fb5-page-book,.p11 .fb5-page-book,.p12 .fb5-page-book,.p13 .fb5-page-book,.p14 .fb5-page-book,.p15 .fb5-page-book{height:100%!important;width:960px!important;left:0!important;top:0!important}
+.p3 .fb5-page-book,.p4 .fb5-page-book,.p5 .fb5-page-book,.p6 .fb5-page-book,.p7 .fb5-page-book,.p8 .fb5-page-book,.p9 .fb5-page-book,.p10 .fb5-page-book,.p11 .fb5-page-book,.p12 .fb5-page-book,.p13 .fb5-page-book,.p14 .fb5-page-book,.p15 .fb5-page-book{height:100%!important;width:960px!important;left:0!important;top:0!important}
 .seconds{-webkit-animation-duration:1s;animation-duration:1s}.page001{background:url('../pages/1.jpg')!important;background-size:cover!important}
 .animatedLogo{background-position:0 0;background:url('../img/portada/logo.png')!important;height:382px;margin:auto;max-width:100%;width:888px}
 .logoAnimated{-webkit-animation-delay:.4s;-webkit-animation:play 1.8s steps(44) forwards;animation-delay:.4s;animation:play 1.8s steps(44) forwards}@keyframes play{100%{background-position:0 16808px}
