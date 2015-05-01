@@ -779,6 +779,7 @@ html,body {
         }
 .p4 .fb5-page-book,
 .p5 .fb5-page-book,
+.p6 .fb5-page-book,
 .p7 .fb5-page-book,
 .p8 .fb5-page-book,
 .p9 .fb5-page-book,
@@ -926,6 +927,10 @@ html,body {
 	-webkit-animation-delay: 1s;
 }
 
+.images_2 li:nth-child(6) {
+	-webkit-animation-delay: 1.2s;
+}
+
 #fb5 .fb5-page-book ul li a {
 	display: block;
 }
@@ -934,7 +939,7 @@ html,body {
   width: 100%;
 }
 
-.content001, .content002, .content003, .content004, .content005 {
+.content001, .content002, .content003, .content004, .content005, .content006 {
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.4s;
 	background: rgba(3, 36, 65, 0.8) !important;
@@ -976,6 +981,12 @@ html,body {
 	background: url('../img/2_3/valores.png') no-repeat !important;
 	width: 508px !important;
 	height: 393px !important;
+}
+
+.content006 {
+	background: url('../img/2_3/reconocimientos.png') no-repeat !important;
+	width: 861px !important;
+	height: 591px !important;
 }
 
 .contenido .slide {
@@ -1074,6 +1085,12 @@ html,body {
 .delay {
 	-webkit-animation-delay: 0.7s;
 	animation-delay: 0.7s;
+}
+
+
+.pageInformatica {
+  position: absolute;
+  right: 0;
 }
 
 .p8 .imgBtnLeft{
