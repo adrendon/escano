@@ -1569,3 +1569,22 @@ html,body {
 .sede {
 	position: absolute;
 }
+
+.marque {
+	position: absolute;
+	bottom: 6.5%;
+}
+
+.informaticaTitle {
+  position: absolute;
+  top: 12%;
+}
+
+.blockInformatica {
+  position: absolute;
+  top: 28%;
+}
+
+.right {
+	right: 0;
+}

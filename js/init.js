@@ -281,9 +281,9 @@ function hideContebtVentajas() {
         jQuery('.btnMenu').removeClass('btnMenuMostrar');
         jQuery('.imgBtnLeft').removeClass('imgBtnLeftActive');
         jQuery('.imgBtnRight').removeClass('imgBtnRightActive');
-        jQuery('.tituloLeft, .tituloRight').removeClass('tituloMostrar');
-        jQuery('.bg').removeClass('bgMostrar');
-        jQuery('.bgDown').removeClass('bgDownMostrar');
+        // jQuery('.tituloLeft, .tituloRight').removeClass('tituloMostrar');
+        // jQuery('.bg').removeClass('bgMostrar');
+        // jQuery('.bgDown').removeClass('bgDownMostrar');
         jQuery('.btnMenuGallery').removeClass('btnMenuGalleryMostrar');
         jQuery('.contentGallery').removeClass('contentGalleryMostrar');
         jQuery('.contentMostrar').removeClass('contentMostrar');

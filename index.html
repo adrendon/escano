@@ -161,7 +161,8 @@
                                     <div class="animated seconds fadeInLeft delay block_left block_Mostrar">
                                         <img data-src="img/4_5/block_left.png">
                                     </div>
-                                    <img data-src="img/4_5/text_001.png" alt="" style="position: absolute;right: 0;bottom: 6.5%;">
+                                    <!-- <marquee direction="right" class="marque right"><img src="img/4_5/text_001.png"></marquee> -->
+                                    <img class="marque right" data-src="img/4_5/text_001.png">
                                 </div><!-- END DESCRIPTION FOR PAGE -->
                             </div><!-- END CONTAINER PAGE BOOK -->
                         </div><!-- END PAGE 4 -->
@@ -177,9 +178,8 @@
                                     <div class="animated seconds fadeInRight delay block_Right block_Mostrar">
                                         <img data-src="img/4_5/block_right.png">
                                     </div>
-                                    <marquee style="border:#04B404 3px SOLID">
-                                        <span><img data-src="img/4_5/text_002.png" alt="" style="position: absolute;left: 0;bottom: 6.5%;"></span>
-                                    </marquee>
+                                    <!-- <marquee direction="left" class="marque left"><img src="img/4_5/text_002.png"></marquee> -->
+                                    <img class="marque left" data-src="img/4_5/text_002.png">
                                 </div><!-- END DESCRIPTION FOR PAGE -->
                             </div><!-- END CONTAINER PAGE BOOK -->
                         </div><!-- END PAGE 5 -->
@@ -189,12 +189,10 @@
                         <div data-background-image="pages/4_5.jpg" class="fb5-double fb5-first"><!-- BEGIN PAGE 6 -->
                             <div class="fb5-cont-page-book"><!-- BEGIN CONTAINER PAGE BOOK -->
                                 <div class="fb5-page-book"><!-- BEGIN DESCRIPTION FOR PAGE -->
-                                    <div class="animated seconds fadeInLeft delay">
-                                        <a href="#" class="btnInformatica" onclick="showInformatica()">
-                                            <img data-src="img/6_7/btn_title.png" style="margin-top: 90px;">
-                                        </a>
+                                    <div class="animated seconds fadeInLeft delay informaticaTitle right">
+                                        <img data-src="img/6_7/title_left.png">
                                     </div>
-                                    <div class="animated blockLeft" style="margin-top:130px;">
+                                    <div class="animated seconds fadeInLeft delay002 blockInformatica right">
                                         <img data-src="img/6_7/block_left.png">
                                     </div>
                                 </div><!-- END DESCRIPTION FOR PAGE -->
@@ -206,8 +204,11 @@
                         <div data-background-image="pages/4_5.jpg" class="fb5-double fb5-second"><!-- BEGIN PAGE 7 -->
                             <div class="fb5-cont-page-book"><!-- BEGIN CONTAINER PAGE BOOK -->
                                 <div class="fb5-page-book"><!-- BEGIN DESCRIPTION FOR PAGE -->
-                                   <div class="animated seconds fadeInRight delay">
-                                        <img data-src="img/6_7/foto_big.png">
+                                    <div class="animated seconds fadeInRight delay informaticaTitle">
+                                        <img data-src="img/6_7/title_right.png">
+                                    </div>
+                                    <div class="animated seconds fadeInRight delay002 blockInformatica">
+                                        <img data-src="img/6_7/block_right.png">
                                     </div>
                                 </div><!-- END DESCRIPTION FOR PAGE -->
                             </div><!-- END CONTAINER PAGE BOOK -->
@@ -362,16 +363,16 @@
                         <div data-background-image="pages/10_11.jpg" class="fb5-double fb5-first"><!-- BEGIN PAGE 10 -->
                             <div class="fb5-cont-page-book"><!-- BEGIN CONTAINER PAGE BOOK -->
                                 <div class="fb5-page-book"><!-- BEGIN DESCRIPTION FOR PAGE -->
-                                    <div class="imgBtnTen animated seconds fadeInLeft delay" onclick="fnc_show_especialistas();">
+                                    <!-- <div class="imgBtnTen animated seconds fadeInLeft delay" onclick="fnc_show_especialistas();">
                                         <img data-src="img/10_11/btn_title.png">
-                                    </div>
-                                    <div class="tituloLeft" onclick="fnc_hide_especialistas();">
+                                    </div> -->
+                                    <div class="animated seconds fadeInDown delay004 tituloLeft tituloMostrar">
                                         <img data-src="img/10_11/btn_title_left.png">
                                     </div>
-                                    <div class="bgDown">
+                                    <div class="animated seconds fadeInUp delay bgDown bgDownMostrar">
                                         <img data-src="img/10_11/bg_001.jpg">
                                     </div>
-                                    <div class="bg">
+                                    <div class="animated seconds fadeInLeft delay006 bg bgMostrar">
                                         <img class="imgLeft" data-src="img/10_11/block_left.png">
                                     </div>
                                 </div><!-- END DESCRIPTION FOR PAGE -->
@@ -383,13 +384,13 @@
                         <div data-background-image="pages/10_11.jpg" class="fb5-double fb5-second"><!-- BEGIN PAGE 11 -->
                             <div class="fb5-cont-page-book"><!-- BEGIN CONTAINER PAGE BOOK -->
                                 <div class="fb5-page-book"><!-- BEGIN DESCRIPTION FOR PAGE -->
-                                    <div class="tituloRight" onclick="fnc_hide_especialistas();">
+                                    <div class="animated seconds fadeInDown delay004 tituloRight tituloMostrar">
                                         <img data-src="img/10_11/btn_title_right.png">
                                     </div>
-                                    <div class="bgDown">
+                                    <div class="animated seconds fadeInUp delay002 bgDown bgDownMostrar">
                                         <img data-src="img/10_11/bg_002.jpg">
                                     </div>
-                                    <div class="bg">
+                                    <div class="animated seconds fadeInRight delay006 bg bgMostrar">
                                         <img class="imgRight" data-src="img/10_11/block_right.png">
                                     </div>
                                 </div><!-- END DESCRIPTION FOR PAGE -->

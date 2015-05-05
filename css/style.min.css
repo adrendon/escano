@@ -104,4 +104,5 @@
 .hiddenTop{-webkit-transform:translateY(-1000px);-webkit-transition:-webkit-transform .4s;transform:translateY(-1000px);transition:-webkit-transform .4s}
 .contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.contraportada img{max-width:80%;margin:auto!important}
 .zIndex{z-index:2}.sedesThumbs{position:absolute;top:10%;width:100%}.sedesThumbs li{display:inline-block;text-align:center;vertical-align:top;width:33%}
-.sedesThumbs li img{margin:auto!important}.sedesThumbs li .title{margin-top:30px!important}.sedes{position:absolute;top:35%}.sede{position:absolute}
+.sedesThumbs li img{margin:auto!important}.sedesThumbs li .title{margin-top:30px!important}.sedes{position:absolute;top:35%}.sede{position:absolute}.marque{position:absolute;bottom:6.5%}
+.informaticaTitle{position:absolute;top:12%}.blockInformatica{position:absolute;top:28%}.right{right:0}
