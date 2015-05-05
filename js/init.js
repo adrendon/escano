@@ -199,13 +199,48 @@ function disableAnimate() {
 //Page 002 - 003
 
 function empresa($this) {
+    var subMenu = jQuery('.p3').find('.sedesThumbs, .sede');
+
     var idContent = jQuery($this).parent().attr('href');
     var elemContent = jQuery(idContent);
+
     if (elemContent.hasClass('slide')) {
         elemContent.toggleClass('slide');
     } else {
         jQuery('.contenido > div').removeClass('slide');
         elemContent.toggleClass('slide');
+    }
+
+    if (subMenu.hasClass('contentShowX')) {
+        subMenu.removeClass('contentShowX');
+    }
+
+}
+
+function sedes($this) {
+    var subMenu = jQuery('.p3').find('.sedesThumbs');
+    var subMenuServices = jQuery('.p3').find('.slide');
+
+    if (subMenu.hasClass('contentShowX')) {
+        subMenu.toggleClass('contentShowX');
+    } else {
+        subMenu.hasClass('contentShowX');
+        subMenu.toggleClass('contentShowX');
+    }
+
+    if (subMenuServices.hasClass('slide')) {
+        subMenuServices.removeClass('slide');
+    }
+}
+
+function sede ($this) {
+    var idElemContent = jQuery($this).attr('href');
+    var elemContent = jQuery(idElemContent);
+    if (elemContent.hasClass('contentShowX')) {
+        elemContent.removeClass('contentShowX');
+    } else {
+        elemContent.siblings().removeClass('contentShowX');
+        elemContent.addClass('contentShowX');
     }
 }
 
@@ -239,10 +274,8 @@ function hideContebtVentajas() {
     setTimeout(function () {
         jQuery('.contenido > div').removeClass('slide');
         jQuery('.leftWidht').removeClass('leftWidht');
-        // jQuery('.titleLeft, .titleRight').removeClass('titleMostrar');
         jQuery('.btnTitle').removeClass('delay').addClass('titleventajasMostrar');
         jQuery('.hidden').removeClass('ocultar');
-        // jQuery('.block_left, .block_Right, .blockLeft').removeClass('block_Mostrar');
         jQuery('.serviciosMain').removeClass('serviciosMainActive');
         jQuery('.imgPage').removeClass('imgPageMostrar');
         jQuery('.btnMenu').removeClass('btnMenuMostrar');
@@ -434,11 +467,5 @@ window.onload = function () {
         gallery();
         initialize();
     });
-
-    // jQuery('a').on('click', function (e) {
-    //    if (!jQuery(this).hasClass('web')) {
-    //        e.preventDefault();
-    //    }
-    // });
 
 };

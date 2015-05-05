@@ -1540,3 +1540,32 @@ html,body {
 	z-index: 2
 }
 
+.sedesThumbs {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.sedesThumbs li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 33%;
+}
+
+.sedesThumbs li img {
+	margin: auto !important;
+}
+
+.sedesThumbs li .title {
+	margin-top: 30px !important;
+}
+
+.sedes {
+	position: absolute;
+	top: 35%;
+}
+
+.sede {
+	position: absolute;
+}
