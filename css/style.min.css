@@ -52,14 +52,11 @@
 #fb5 #fb5-button-back{background-color:#64c8d3;color:#fff}#fb5 #fb5-button-back:hover{color:#64c8d3;background-color:#fff}#fb5 .fb5-overlay{background:rgba(0,0,0,0.6)}
 .p3 .fb5-page-book,.p4 .fb5-page-book,.p5 .fb5-page-book,.p6 .fb5-page-book,.p7 .fb5-page-book,.p8 .fb5-page-book,.p9 .fb5-page-book,.p10 .fb5-page-book,.p11 .fb5-page-book,.p12 .fb5-page-book,.p13 .fb5-page-book,.p14 .fb5-page-book,.p15 .fb5-page-book{height:100%!important;width:960px!important;left:0!important;top:0!important}
 .seconds{-webkit-animation-duration:1s;animation-duration:1s}.page001{background:url('../pages/1.jpg')!important;background-size:cover!important}
-.animatedLogo{background-position:0 0;background:url('../img/portada/logo.png')!important;height:382px;margin:auto;max-width:100%;width:888px}
-.logoAnimated{-webkit-animation-delay:.4s;-webkit-animation:play 1.8s steps(44) forwards;animation-delay:.4s;animation:play 1.8s steps(44) forwards}@keyframes play{100%{background-position:0 16808px}
-}@-webkit-keyframes play{100%{background-position:0 16808px}}.imagesHome li{-webkit-animation-delay:.1s}.imagesHome li:nth-child(1){-webkit-animation-delay:.2s}
-.imagesHome li:nth-child(2){-webkit-animation-delay:.2s}.imagesHome li:nth-child(3){-webkit-animation-delay:.3s}.imagesHome li:nth-child(4){-webkit-animation-delay:.3s}
-.imagesHome li:nth-child(5){-webkit-animation-delay:.4s}.imagesHome li:nth-child(6){-webkit-animation-delay:.4s}.imagesHome li:nth-child(7){-webkit-animation-delay:.5s}
-.imagesHome li:nth-child(8){-webkit-animation-delay:.6s}.imagesHome li:nth-child(9){-webkit-animation-delay:.7s}.imagesHome li:nth-child(10){-webkit-animation-delay:.7s}
-.texto001{-webkit-animation-delay:.8s;-webkit-animation-duration:1.4s;bottom:0;position:absolute;width:100%!important}.texto001 h1{color:#fff!important;font-family:'champagne'!important;font-size:34px!important;text-align:center!important;text-transform:uppercase!important}
-.images_2{left:1%;overflow:hidden!important;position:absolute;top:1%;width:100%!important}.images_2 li{-webkit-animation-delay:.6s;margin-bottom:3.2%!important}
+.animatedLogo{background-position:0 0;background:url('../img/portada/logo.png')!important;height:294px;margin:20px auto!important;max-width:100%;width:773px}
+.logoAnimated{-webkit-animation-delay:.4s;-webkit-animation:play 1.8s steps(46) forwards;animation-delay:.4s;animation:play 1.8s steps(46) forwards}@keyframes play{100%{background-position:0 13524px}
+}@-webkit-keyframes play{100%{background-position:0 13524px}}.imagesHome{top:63%}.imagesHome li{width:100%!important}.imagesHome li:nth-child(1){-webkit-animation-delay:.2s}
+.imagesHome li:nth-child(2){-webkit-animation-delay:.2s}.imagesHome li:nth-child(3){-webkit-animation-delay:.3s}.texto001{-webkit-animation-delay:.8s;-webkit-animation-duration:1.4s;bottom:0;position:absolute;width:100%!important}
+.texto001 img{margin:auto!important}.images_2{left:1%;overflow:hidden!important;position:absolute;top:1%;width:100%!important}.images_2 li{-webkit-animation-delay:.6s;margin-bottom:3.2%!important}
 .images_2 li:nth-child(1){-webkit-animation-delay:.7s}.images_2 li:nth-child(2){-webkit-animation-delay:.8s}.images_2 li:nth-child(3){-webkit-animation-delay:.9s}
 .images_2 li:nth-child(4){-webkit-animation-delay:1s}.images_2 li:nth-child(5){-webkit-animation-delay:1s}.images_2 li:nth-child(6){-webkit-animation-delay:1.2s}
 #fb5 .fb5-page-book ul li a{display:block}.contenido{width:100%}.content001,.content002,.content003,.content004,.content005,.content006{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
@@ -81,21 +78,22 @@
 .serviciosMainActive .serviceActive img{display:block;height:auto;margin:auto!important;max-width:80%;transform:scale(1.02)}.btnMenu{-webkit-transform:translateX(-1000px);-webkit-transition:-webkit-transform .4s;left:2%;position:relative;top:44%;z-index:10000}
 .btnMenuMostrar{-webkit-transform:translateX(0)}.btnMenu li{-webkit-transition:-webkit-transform .4s;width:100%!important;margin-top:5%!important}.btnMenu li:first-child{margin-top:0!important}
 .imgPage{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .8s;bottom:17px;height:61%!important;max-width:100%;position:absolute;right:17px}
-.content{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;height:100%!important;position:absolute;z-index:2}.imgPageMostrar,.contentMostrar{-webkit-transform:translateX(0);s}
-.imgPageMostrar{height:652px!important;width:941px!important}.imgPageMostrar.imgPage001{background:url('../img/8_9/resonancia/foto_big.png')!important}
-.imgPageMostrar.imgPage002{background:url('../img/8_9/tomografia/foto_big.png')!important}.imgPageMostrar.imgPage003{background:url('../img/8_9/ecografia/foto_big.png')!important}
-.imgPageMostrar.imgPage004{background:url('../img/8_9/mamografia/foto_big.png')!important}.imgPageMostrar.imgPage005{background:url('../img/8_9/densitometria/foto_big.png')!important}
-.imgPageMostrar.imgPage006{background:url('../img/8_9/rayosx/foto_big.png')!important}.imgBtnTen{cursor:pointer;position:absolute;top:10%}.bgDown{-webkit-transform:translateY(2000px);-webkit-transition:-webkit-transform .4s}
-.tituloLeft,.tituloRight{-webkit-transform:translateY(-2000px);-webkit-transition:-webkit-transform .4s}.bgDownMostrar,.tituloMostrar{-webkit-transform:translateY(0)}
-.bg{-webkit-transition:-webkit-transform .4s;position:absolute;top:12%}.p10 .bg{-webkit-transform:translateX(-1000px)}.p11 .bg{-webkit-transform:translateX(1000px)}
-.p10 .bg.bgMostrar,.p11 .bg.bgMostrar{-webkit-transform:translateY(0);position:absolute;top:12%}.p10 .bg,.tituloLeft{right:0}.p11 .bg,.tituloRight{left:0}
-.tituloLeft,.tituloRight{position:absolute;top:4%;z-index:1}.tituloMostrar{cursor:pointer}.title-left{position:absolute;right:0;top:4%}.title-right{left:0;position:absolute;top:4%}
-.imagesGallery{left:9%;position:absolute;top:13%}.delay001{-webkit-animation-delay:.8s}.delay002{-webkit-animation-delay:.9s}.delay003{-webkit-animation-delay:1.1s}
-.delay004{-webkit-animation-delay:1.3s}.delay005{-webkit-animation-delay:1.5s}.delay006{-webkit-animation-delay:1.7s}.btnMenuGallery{-webkit-transform:translate(1000px,105%);-webkit-transition:-webkit-transform .4s;position:absolute}
-.btnMenuGallery li{display:inline-block;margin-right:1px!important}.btnMenuGalleryMostrar{-webkit-transform:translate(0,105%);float:left;left:50%;position:relative}
-.btnMenuGalleryMostrar ul{position:relative;right:50%}.contentGallery{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;position:absolute;right:2%;top:28%}
-.contentGalleryMostrar{-webkit-transform:translateX(0);text-align:center;width:100%}.contentGalleryMostrar img{margin:auto!important}.imagesPage14 li{position:absolute;margin-left:8%!important}
-.imagesPage14 li:nth-child(1){top:15%}.imagesPage14 li:nth-child(2){top:40%}.imagesPage14 li:nth-child(3){top:65%;margin-left:4%!important}.contentPage014>div{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
+.content{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;height:100%!important;position:absolute;z-index:2}.imgPageMostrar,.contentMostrar{-webkit-transform:translateX(0)}
+.imgPageMostrarTwo{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s}.imgPageMostrar{height:652px!important;width:941px!important}
+.imgPageMostrar.imgPage001{background:url('../img/8_9/resonancia/foto_big.png')!important}.imgPageMostrar.imgPage002{background:url('../img/8_9/tomografia/foto_big.png')!important}
+.imgPageMostrar.imgPage003{background:url('../img/8_9/ecografia/foto_big.png')!important}.imgPageMostrar.imgPage004{background:url('../img/8_9/mamografia/foto_big.png')!important}
+.imgPageMostrar.imgPage005{background:url('../img/8_9/densitometria/foto_big.png')!important}.imgPageMostrar.imgPage006{background:url('../img/8_9/rayosx/foto_big.png')!important}
+.imgBtnTen{cursor:pointer;position:absolute;top:10%}.bgDown{-webkit-transform:translateY(2000px);-webkit-transition:-webkit-transform .4s}.tituloLeft,.tituloRight{-webkit-transform:translateY(-2000px);-webkit-transition:-webkit-transform .4s}
+.bgDownMostrar,.tituloMostrar{-webkit-transform:translateY(0)}.bg{-webkit-transition:-webkit-transform .4s;position:absolute;top:12%}.p10 .bg{-webkit-transform:translateX(-1000px)}
+.p11 .bg{-webkit-transform:translateX(1000px)}.p10 .bg.bgMostrar,.p11 .bg.bgMostrar{-webkit-transform:translateY(0);position:absolute;top:12%}.p10 .bg,.tituloLeft{right:0}
+.p11 .bg,.tituloRight{left:0}.tituloLeft,.tituloRight{position:absolute;top:4%;z-index:1}.tituloMostrar{cursor:pointer}.title-left{position:absolute;right:0;top:4%}
+.title-right{left:0;position:absolute;top:4%}.imagesGallery{left:9%;position:absolute;top:13%}.delay001{-webkit-animation-delay:.8s}.delay002{-webkit-animation-delay:.9s}
+.delay003{-webkit-animation-delay:1.1s}.delay004{-webkit-animation-delay:1.3s}.delay005{-webkit-animation-delay:1.5s}.delay006{-webkit-animation-delay:1.7s}
+.btnMenuGallery{-webkit-transform:translate(1000px,105%);-webkit-transition:-webkit-transform .4s;position:absolute}.btnMenuGallery li{display:inline-block;margin-right:1px!important}
+.btnMenuGalleryMostrar{-webkit-transform:translate(0,105%);float:left;left:50%;position:relative}.btnMenuGalleryMostrar ul{position:relative;right:50%}
+.contentGallery{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;position:absolute;right:2%;top:28%}.contentGalleryMostrar{-webkit-transform:translateX(0);text-align:center;width:100%}
+.contentGalleryMostrar img{margin:auto!important}.imagesPage14 li{position:absolute;margin-left:8%!important}.imagesPage14 li:nth-child(1){top:15%}.imagesPage14 li:nth-child(2){top:40%}
+.imagesPage14 li:nth-child(3){top:65%;margin-left:4%!important}.contentPage014>div{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
 .contentPage014 .slide{-webkit-transform:translateX(0)}.contentPage014 img{bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
 .thumbnails{position:relative;top:15%}.thumbnails li{display:inline-block;margin:auto;width:33%}.thumbnails li a img{margin:auto!important}.iframes{position:absolute;top:40%}
 .iframes .iframe{position:absolute;height:510px;width:880px}.hiddenRight{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;transform:translateX(1000px);transition:-webkit-transform .4s}
@@ -105,4 +103,4 @@
 .contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.contraportada img{max-width:80%;margin:auto!important}
 .zIndex{z-index:2}.sedesThumbs{position:absolute;top:10%;width:100%}.sedesThumbs li{display:inline-block;text-align:center;vertical-align:top;width:33%}
 .sedesThumbs li img{margin:auto!important}.sedesThumbs li .title{margin-top:30px!important}.sedes{position:absolute;top:35%}.sede{position:absolute}.marque{position:absolute;bottom:6.5%}
-.informaticaTitle{position:absolute;top:12%}.blockInformatica{position:absolute;top:28%}.right{right:0}
+.informaticaTitle{position:absolute;top:12%}.blockInformatica{position:absolute;top:28%}.right{right:0}.itemsServicios{position:absolute;top:38%}.supersalud{bottom:7%;left:0;margin:auto!important;position:absolute;right:0}

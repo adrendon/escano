@@ -814,29 +814,33 @@ html,body {
 .animatedLogo {
   background-position: 0 0;
   background: url('../img/portada/logo.png') !important;
-  height: 382px;
-  margin: auto;
+  height: 294px;
+  margin: 20px auto !important;
   max-width: 100%;
-  width: 888px;
+  width: 773px;
 }
 
 .logoAnimated {
 	-webkit-animation-delay: 0.4s;
-	-webkit-animation: play 1.8s steps(44) forwards;
+	-webkit-animation: play 1.8s steps(46) forwards;
 	animation-delay: 0.4s;
-	animation: play 1.8s steps(44) forwards;
+	animation: play 1.8s steps(46) forwards;
 }
 
 @keyframes play {
-	100% { background-position: 0  16808px;}
+	100% { background-position: 0  13524px;}
 }
 
 @-webkit-keyframes play {
-	100% { background-position: 0  16808px;}
+	100% { background-position: 0  13524px;}
+}
+
+.imagesHome {
+	top: 63%;
 }
 
 .imagesHome li {
-	-webkit-animation-delay: 0.1s;
+	width: 100% !important;
 }
 
 .imagesHome li:nth-child(1) {
@@ -851,7 +855,7 @@ html,body {
 	-webkit-animation-delay: 0.3s;
 }
 
-.imagesHome li:nth-child(4) {
+/*.imagesHome li:nth-child(4) {
 	-webkit-animation-delay: 0.3s;
 }
 
@@ -876,7 +880,7 @@ html,body {
 
 .imagesHome li:nth-child(10) {
 	-webkit-animation-delay: 0.7s;
-}
+}*/
 
 .texto001 {
 	-webkit-animation-delay: 0.8s;
@@ -886,12 +890,16 @@ html,body {
 	width: 100% !important;
 }
 
-.texto001 h1 {
+/*.texto001 h1 {
 	color: #fff !important;
 	font-family: 'champagne' !important;
 	font-size: 34px !important;
 	text-align: center !important;
 	text-transform: uppercase !important;
+}*/
+
+.texto001 img {
+	margin: auto !important;
 }
 
 .images_2 {
@@ -1227,8 +1235,13 @@ html,body {
 	z-index: 2;
 }
 
-.imgPageMostrar, .contentMostrar  {
-	-webkit-transform: translateX(0);s
+.imgPageMostrar, .contentMostrar {
+	-webkit-transform: translateX(0);
+}
+
+.imgPageMostrarTwo {
+	-webkit-transform: translateX(1000px);
+	-webkit-transition: -webkit-transform 0.4s;
 }
 
 .imgPageMostrar {
@@ -1586,5 +1599,18 @@ html,body {
 }
 
 .right {
+	right: 0;
+}
+
+.itemsServicios {
+	position: absolute;
+	top: 38%;
+}
+
+.supersalud {
+	bottom: 7%;
+	left: 0;
+	margin: auto !important;
+	position: absolute;
 	right: 0;
 }

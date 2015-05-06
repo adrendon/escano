@@ -313,25 +313,32 @@ function servicios($this) {
     jQuery('.imgBtnLeft').addClass('imgBtnLeftActive');
     jQuery('.imgBtnRight').addClass('imgBtnRightActive');
 
-    if (jQuery('.imgPage').hasClass('zIndex')) {
-        jQuery('.imgPage').removeClass('zIndex');
-    }
+    // if (jQuery('.imgPage').hasClass('zIndex')) {
+    //     jQuery('.imgPage').removeClass('zIndex');
+    // }
 
     if (jQuery('.content').hasClass('contentMostrar')) {
         jQuery('.content').removeClass('contentMostrar');
     }
+
+    jQuery('.imgPage').removeClass('imgPageMostrarTwo');
 }
 
 function serviciosItem($this) {
     var idElemContent = jQuery($this).parent().attr('href');
     var elemContent = jQuery(idElemContent);
-    jQuery('.imgPage').addClass('zIndex');
+
+
+    // jQuery('.imgPage').addClass('zIndex');
     if (elemContent.hasClass('contentMostrar')) {
         elemContent.removeClass('contentMostrar');
     } else {
         elemContent.siblings().removeClass('contentMostrar');
         elemContent.addClass('contentMostrar');
     }
+
+    jQuery('.imgPage').addClass('imgPageMostrarTwo');
+
 }
 
 //Page 010 - 011
