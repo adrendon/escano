@@ -1615,7 +1615,8 @@ html,body {
 	margin: auto !important;
 	position: absolute;
 	right: 0;
-	overflow: hidden;
+	overflow: hidden !important;
+	width: 863px;
 }
 
 .supersalud img {
