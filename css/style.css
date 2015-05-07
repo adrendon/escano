@@ -812,12 +812,14 @@ html,body {
 }
 
 .animatedLogo {
-  background-position: 0 0;
-  background: url('../img/portada/logo.png') !important;
-  height: 294px;
-  margin: 20px auto !important;
-  max-width: 100%;
-  width: 773px;
+	background-position: 0 0;
+	background: url('../img/portada/logo.png') !important;
+	height: 294px;
+	margin: 0 auto !important;
+	max-width: 100%;
+	position: relative;
+	width: 773px;
+	z-index: 1;
 }
 
 .logoAnimated {
@@ -836,7 +838,7 @@ html,body {
 }
 
 .imagesHome {
-	top: 63%;
+	top: 55% !important;
 }
 
 .imagesHome li {
@@ -1608,9 +1610,22 @@ html,body {
 }
 
 .supersalud {
-	bottom: 7%;
+	bottom: 0%;
 	left: 0;
 	margin: auto !important;
 	position: absolute;
 	right: 0;
+	overflow: hidden;
+}
+
+.supersalud img {
+	margin: auto !important;
+}
+
+.supersalud marquee {
+	bottom: 5%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto !important;
 }

@@ -52,9 +52,9 @@
 #fb5 #fb5-button-back{background-color:#64c8d3;color:#fff}#fb5 #fb5-button-back:hover{color:#64c8d3;background-color:#fff}#fb5 .fb5-overlay{background:rgba(0,0,0,0.6)}
 .p3 .fb5-page-book,.p4 .fb5-page-book,.p5 .fb5-page-book,.p6 .fb5-page-book,.p7 .fb5-page-book,.p8 .fb5-page-book,.p9 .fb5-page-book,.p10 .fb5-page-book,.p11 .fb5-page-book,.p12 .fb5-page-book,.p13 .fb5-page-book,.p14 .fb5-page-book,.p15 .fb5-page-book{height:100%!important;width:960px!important;left:0!important;top:0!important}
 .seconds{-webkit-animation-duration:1s;animation-duration:1s}.page001{background:url('../pages/1.jpg')!important;background-size:cover!important}
-.animatedLogo{background-position:0 0;background:url('../img/portada/logo.png')!important;height:294px;margin:20px auto!important;max-width:100%;width:773px}
+.animatedLogo{background-position:0 0;background:url('../img/portada/logo.png')!important;height:294px;margin:0 auto!important;max-width:100%;position:relative;width:773px;z-index:1}
 .logoAnimated{-webkit-animation-delay:.4s;-webkit-animation:play 1.8s steps(46) forwards;animation-delay:.4s;animation:play 1.8s steps(46) forwards}@keyframes play{100%{background-position:0 13524px}
-}@-webkit-keyframes play{100%{background-position:0 13524px}}.imagesHome{top:63%}.imagesHome li{width:100%!important}.imagesHome li:nth-child(1){-webkit-animation-delay:.2s}
+}@-webkit-keyframes play{100%{background-position:0 13524px}}.imagesHome{top:55%!important}.imagesHome li{width:100%!important}.imagesHome li:nth-child(1){-webkit-animation-delay:.2s}
 .imagesHome li:nth-child(2){-webkit-animation-delay:.2s}.imagesHome li:nth-child(3){-webkit-animation-delay:.3s}.texto001{-webkit-animation-delay:.8s;-webkit-animation-duration:1.4s;bottom:0;position:absolute;width:100%!important}
 .texto001 img{margin:auto!important}.images_2{left:1%;overflow:hidden!important;position:absolute;top:1%;width:100%!important}.images_2 li{-webkit-animation-delay:.6s;margin-bottom:3.2%!important}
 .images_2 li:nth-child(1){-webkit-animation-delay:.7s}.images_2 li:nth-child(2){-webkit-animation-delay:.8s}.images_2 li:nth-child(3){-webkit-animation-delay:.9s}
@@ -103,4 +103,5 @@
 .contentShowY{-webkit-transform:translateY(0);transform:translateX(0)}.contraportada{margin-top:170px!important;position:absolute}.contraportada img{max-width:80%;margin:auto!important}
 .zIndex{z-index:2}.sedesThumbs{position:absolute;top:10%;width:100%}.sedesThumbs li{display:inline-block;text-align:center;vertical-align:top;width:33%}
 .sedesThumbs li img{margin:auto!important}.sedesThumbs li .title{margin-top:30px!important}.sedes{position:absolute;top:35%}.sede{position:absolute}.marque{position:absolute;bottom:6.5%}
-.informaticaTitle{position:absolute;top:12%}.blockInformatica{position:absolute;top:28%}.right{right:0}.itemsServicios{position:absolute;top:38%}.supersalud{bottom:7%;left:0;margin:auto!important;position:absolute;right:0}
+.informaticaTitle{position:absolute;top:12%}.blockInformatica{position:absolute;top:28%}.right{right:0}.itemsServicios{position:absolute;top:38%}.supersalud{bottom:0;left:0;margin:auto!important;position:absolute;right:0;overflow:hidden}
+.supersalud img{margin:auto!important}.supersalud marquee{bottom:5%;position:absolute;left:0;right:0;margin:auto!important}
