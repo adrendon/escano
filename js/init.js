@@ -161,7 +161,7 @@ function serviciosItem($this) {
         elemContent.removeClass('contentMostrar');
         jQuery('div.'+imgFondo).removeClass('translateRight');
     } else {
-        elemContent.removeClass('contentMostrar');
+        elemContent.siblings().removeClass('contentMostrar');
         elemContent.addClass('contentMostrar');
         jQuery('div.'+imgFondo).addClass('translateRight');
     }

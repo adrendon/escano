@@ -1551,8 +1551,10 @@ html,body {
 }
 
 .contraportada {
-	margin-top: 170px !important;
-	position: absolute;
+  left: 0;
+  margin-top: 20px !important;
+  position: absolute;
+  right: 0;
 }
 
 .contraportada img {
@@ -1565,8 +1567,9 @@ html,body {
 }
 
 .sedesThumbs {
+  margin: auto !important;
   position: absolute;
-  top: 4%;
+  top: 31%;
   width: 100%;
 }
 
@@ -1578,7 +1581,30 @@ html,body {
 }
 
 .sedesThumbs li img {
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
 	margin: auto !important;
+}
+
+.sedesThumbs li img:hover {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+.sedesThumbs li img.img-zoom {
+    width: 296px;
+
+}
+
+
+
+.transition {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
 }
 
 .sedesThumbs li .title {
@@ -1618,32 +1644,39 @@ html,body {
 	top: 38%;
 }
 
-.supersalud {
-	bottom: 0%;
-	left: 0;
-	margin: auto !important;
-	position: absolute;
-	right: 0;
-	overflow: hidden !important;
-	width: 863px;
-}
-
-.supersalud img {
-	margin: auto !important;
-}
-
-.supersalud marquee {
-	bottom: 5%;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto !important;
-}
-
 .direccion {
   bottom: -12%;
   left: 0;
   margin: auto !important;
   position: absolute;
   right: 0;
+}
+
+.textUp, .textBottom {
+  left: 0;
+  margin: auto !important;
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.textUp img, .textBottom img {
+	margin: auto !important;
+}
+
+.textBottom {
+	top: 65%;
+}
+
+.redes {
+    top: 54%;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.redes li {
+    display: inline-block;
 }
