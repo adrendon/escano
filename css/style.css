@@ -777,6 +777,11 @@ html,body {
 		#fb5 .fb5-overlay {
 			background:rgba(0,0,0,0.6);
         }
+
+.p1 .fb5-page-book {
+	height: 96% !important;
+}
+
 .p3 .fb5-page-book,
 .p4 .fb5-page-book,
 .p5 .fb5-page-book,
@@ -814,11 +819,11 @@ html,body {
 .animatedLogo {
 	background-position: 0 0;
 	background: url('../img/portada/logo.png') !important;
-	height: 294px;
+	height: 235px;
 	margin: 0 auto !important;
 	max-width: 100%;
 	position: relative;
-	width: 773px;
+	width: 621px;
 	z-index: 1;
 }
 
@@ -830,15 +835,15 @@ html,body {
 }
 
 @keyframes play {
-	100% { background-position: 0  13524px;}
+	100% { background-position: 0  10810px;}
 }
 
 @-webkit-keyframes play {
-	100% { background-position: 0  13524px;}
+	100% { background-position: 0  10810px;}
 }
 
 .imagesHome {
-	top: 55% !important;
+	top: 53% !important;
 }
 
 .imagesHome li {
@@ -887,7 +892,7 @@ html,body {
 .texto001 {
 	-webkit-animation-delay: 0.8s;
 	-webkit-animation-duration: 1.4s;
-	bottom: 0;
+	bottom: 3%;
 	position: absolute;
 	width: 100% !important;
 }
@@ -1241,14 +1246,17 @@ html,body {
 	-webkit-transform: translateX(0);
 }
 
-.imgPageMostrarTwo {
+.translateRight {
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.4s;
+	transform: translateX(1000px);
+	transition: -webkit-transform 0.4s;
 }
 
 .imgPageMostrar {
 	height: 652px !important;
 	width: 941px !important;
+	-webkit-transition: -webkit-transform 0.4s;
 }
 
 .imgPageMostrar.imgPage001 {
@@ -1471,7 +1479,7 @@ html,body {
 
 .thumbnails {
     position: relative;
-    top: 15%;
+    top: 7%;
 }
 
 .thumbnails li {
@@ -1485,8 +1493,9 @@ html,body {
 }
 
 .iframes {
+	left: 5%;
 	position: absolute;;
-    top: 40%;
+	top: 33%;
 }
 
 .iframes .iframe {
@@ -1557,7 +1566,7 @@ html,body {
 
 .sedesThumbs {
   position: absolute;
-  top: 10%;
+  top: 4%;
   width: 100%;
 }
 
@@ -1578,7 +1587,7 @@ html,body {
 
 .sedes {
 	position: absolute;
-	top: 35%;
+	top: 40%;
 }
 
 .sede {
@@ -1629,4 +1638,12 @@ html,body {
 	left: 0;
 	right: 0;
 	margin: auto !important;
+}
+
+.direccion {
+  bottom: -12%;
+  left: 0;
+  margin: auto !important;
+  position: absolute;
+  right: 0;
 }

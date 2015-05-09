@@ -159,11 +159,11 @@ function serviciosItem($this) {
     // jQuery('.imgPage').addClass('zIndex');
     if (elemContent.hasClass('contentMostrar')) {
         elemContent.removeClass('contentMostrar');
-        jQuery('div.'+imgFondo).addClass('imgPageMostrar');
+        jQuery('div.'+imgFondo).removeClass('translateRight');
     } else {
-        elemContent.siblings().removeClass('contentMostrar');
+        elemContent.removeClass('contentMostrar');
         elemContent.addClass('contentMostrar');
-        jQuery('div.'+imgFondo).removeClass('imgPageMostrar');
+        jQuery('div.'+imgFondo).addClass('translateRight');
     }
 
     // jQuery('.imgPage').addClass('imgPageMostrarTwo');
