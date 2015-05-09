@@ -820,7 +820,7 @@ html,body {
 	background-position: 0 0;
 	background: url('../img/portada/logo.png') !important;
 	height: 235px;
-	margin: 0 auto !important;
+	margin: 3% auto 0 !important;
 	max-width: 100%;
 	position: relative;
 	width: 621px;
@@ -843,7 +843,7 @@ html,body {
 }
 
 .imagesHome {
-	top: 53% !important;
+	top: 53.4% !important;
 }
 
 .imagesHome li {
@@ -852,6 +852,7 @@ html,body {
 
 .imagesHome li:nth-child(1) {
 	-webkit-animation-delay: 0.2s;
+	margin-bottom: -0.7% !important;
 }
 
 .imagesHome li:nth-child(2) {
@@ -1567,6 +1568,7 @@ html,body {
 }
 
 .sedesThumbs {
+  left: 1.7%;
   margin: auto !important;
   position: absolute;
   top: 31%;
@@ -1575,9 +1577,7 @@ html,body {
 
 .sedesThumbs li {
   display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  width: 33%;
+  margin: 0 0.7% !important;
 }
 
 .sedesThumbs li img {
