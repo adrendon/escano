@@ -60,16 +60,16 @@ function sedes($this) {
     }
 }
 
-function sede ($this) {
-    var idElemContent = jQuery($this).attr('href');
-    var elemContent = jQuery(idElemContent);
-    if (elemContent.hasClass('contentShowX')) {
-        elemContent.removeClass('contentShowX');
-    } else {
-        elemContent.siblings().removeClass('contentShowX');
-        elemContent.addClass('contentShowX');
-    }
-}
+// function sede ($this) {
+//     var idElemContent = jQuery($this).attr('href');
+//     var elemContent = jQuery(idElemContent);
+//     if (elemContent.hasClass('contentShowX')) {
+//         elemContent.removeClass('contentShowX');
+//     } else {
+//         elemContent.siblings().removeClass('contentShowX');
+//         elemContent.addClass('contentShowX');
+//     }
+// }
 
 //Page 004 - 005
 
