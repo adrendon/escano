@@ -801,11 +801,6 @@ html,body {
 	top: 0 !important;
 }
 
-/*#fb5 .fb5-page-book {
-	left: 0 !important;
-	top: 0 !important;
-}*/
-
 .seconds {
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
@@ -863,32 +858,6 @@ html,body {
 	-webkit-animation-delay: 0.3s;
 }
 
-/*.imagesHome li:nth-child(4) {
-	-webkit-animation-delay: 0.3s;
-}
-
-.imagesHome li:nth-child(5) {
-	-webkit-animation-delay: 0.4s;
-}
-.imagesHome li:nth-child(6) {
-	-webkit-animation-delay: 0.4s;
-}
-
-.imagesHome li:nth-child(7) {
-	-webkit-animation-delay: 0.5s;
-}
-
-.imagesHome li:nth-child(8) {
-	-webkit-animation-delay: 0.6s;
-}
-
-.imagesHome li:nth-child(9) {
-	-webkit-animation-delay: 0.7s;
-}
-
-.imagesHome li:nth-child(10) {
-	-webkit-animation-delay: 0.7s;
-}*/
 
 .texto001 {
 	-webkit-animation-delay: 0.8s;
@@ -897,14 +866,6 @@ html,body {
 	position: absolute;
 	width: 100% !important;
 }
-
-/*.texto001 h1 {
-	color: #fff !important;
-	font-family: 'champagne' !important;
-	font-size: 34px !important;
-	text-align: center !important;
-	text-transform: uppercase !important;
-}*/
 
 .texto001 img {
 	margin: auto !important;
@@ -958,8 +919,6 @@ html,body {
 .content001, .content002, .content003, .content004, .content005, .content006 {
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.4s;
-	/*background: rgba(3, 36, 65, 0.8) !important;
-	border-radius: 50px !important;*/
 	bottom: 0;
 	left: 0;
 	margin: auto !important;
@@ -1074,7 +1033,6 @@ html,body {
 
 .titleMostrar {
 	-webkit-transform: translateX(0);
-	/*cursor: pointer;*/
 }
 
 .titleventajas {
@@ -1422,18 +1380,6 @@ html,body {
 	margin: auto !important;
 }
 
-/*.contentGalleryMostrar {
-	-webkit-transform: translate(0,45%);
-	float: left;
-	left: 50%;
-	position: relative;
-}
-
-.contentGalleryMostrar img {
-	position: relative;
-	right: 50%;
-}*/
-
 .imagesPage14 li{
 	position: absolute;
 	margin-left: 8% !important;
@@ -1595,10 +1541,7 @@ html,body {
 
 .sedesThumbs li img.img-zoom {
     width: 296px;
-
 }
-
-
 
 .transition {
     -webkit-transform: scale(2);
@@ -1679,4 +1622,22 @@ html,body {
 
 .redes li {
     display: inline-block;
+}
+
+.photos {
+    display: inline-block;
+    position: absolute;
+    top: 3.8%;
+}
+
+.photos li {
+	margin-bottom: 2% !important;
+}
+
+.photosLeft {
+    left: 14%;
+}
+
+.photosRight {
+    right: 14%;
 }

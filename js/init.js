@@ -52,7 +52,7 @@ function sedes($this) {
         subMenu.toggleClass('contentShowX');
     } else {
         subMenu.hasClass('contentShowX');
-        subMenu.toggleClass('contentShowX');
+        subMenu.toggleClass('contentShowX');3
     }
 
     if (subMenuServices.hasClass('slide')) {
