@@ -140,23 +140,16 @@ function servicios($this) {
     jQuery('.imgBtnLeft').addClass('imgBtnLeftActive');
     jQuery('.imgBtnRight').addClass('imgBtnRightActive');
 
-    // if (jQuery('.imgPage').hasClass('zIndex')) {
-    //     jQuery('.imgPage').removeClass('zIndex');
-    // }
-
     if (jQuery('.content').hasClass('contentMostrar')) {
         jQuery('.content').removeClass('contentMostrar');
     }
 
-    // jQuery('.imgPage').removeClass('imgPageMostrarTwo');
 }
 
 function serviciosItem($this) {
     var idElemContent = jQuery($this).parent().attr('href');
     var elemContent = jQuery(idElemContent);
 
-
-    // jQuery('.imgPage').addClass('zIndex');
     if (elemContent.hasClass('contentMostrar')) {
         elemContent.removeClass('contentMostrar');
         jQuery('div.'+imgFondo).removeClass('translateRight');
@@ -165,9 +158,6 @@ function serviciosItem($this) {
         elemContent.addClass('contentMostrar');
         jQuery('div.'+imgFondo).addClass('translateRight');
     }
-
-    // jQuery('.imgPage').addClass('imgPageMostrarTwo');
-
 }
 
 //Page 010 - 011
@@ -371,12 +361,15 @@ window.onload = function () {
             ]
         }
     ];
-      var myGente = new google.maps.LatLng(6.257522,-75.564547);
-      var Kinee = new google.maps.LatLng(6.257522,-75.564547);
-      var myGentee = new google.maps.LatLng(6.161903,-75.605361);
-      var Kineee = new google.maps.LatLng(6.161903,-75.605361);
-      var myGenteee = new google.maps.LatLng(6.554111,-75.822972);
-      var Kineeee = new google.maps.LatLng(6.554111,-75.822972);
+      var prado = new google.maps.LatLng(6.257522,-75.564547);
+      var mapPrado = new google.maps.LatLng(6.257522,-75.564547);
+
+      var santafe = new google.maps.LatLng(6.554111,-75.822972);
+      var mapSantafe = new google.maps.LatLng(6.554111,-75.822972);
+
+      var mayorca = new google.maps.LatLng(6.161903,-75.605361);
+      var mapMayorca = new google.maps.LatLng(6.161903,-75.605361);
+
       var mapOptions001 = {
         zoom: 18,
          mapTypeControl: false,
@@ -389,9 +382,10 @@ window.onload = function () {
         mapTypeId: MY_MAPTYPE_ID,
         scaleControl: false,
         streetViewControl: false,
-        center: myGente
+        center: prado
       }
-      var mapOptions002 = {
+
+       var mapOptions002 = {
         zoom: 18,
          mapTypeControl: false,
         zoomControl: true,
@@ -403,8 +397,9 @@ window.onload = function () {
         mapTypeId: MY_MAPTYPE_ID,
         scaleControl: false,
         streetViewControl: false,
-        center: myGentee
+        center: santafe
       }
+
       var mapOptions003 = {
         zoom: 18,
          mapTypeControl: false,
@@ -417,8 +412,9 @@ window.onload = function () {
         mapTypeId: MY_MAPTYPE_ID,
         scaleControl: false,
         streetViewControl: false,
-        center: myGenteee
+        center: mayorca
       }
+
       var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions001);
       var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions002);
       var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions003);
@@ -430,7 +426,7 @@ window.onload = function () {
     var image = 'img/14_15/marcador.png';
 
     var marker001 = new google.maps.Marker({
-        position: Kinee,
+        position: mapPrado,
         map: mapa001,
         animation: google.maps.Animation.BOUNCE,
         title: 'Map 01',
@@ -438,7 +434,7 @@ window.onload = function () {
     });
 
     var marker002 = new google.maps.Marker({
-        position: Kineee,
+        position: mapSantafe,
         map: mapa002,
         animation: google.maps.Animation.BOUNCE,
         title: 'Map 02',
@@ -446,7 +442,7 @@ window.onload = function () {
     });
 
     var marker003 = new google.maps.Marker({
-        position: Kineeee,
+        position: mapMayorca,
         map: mapa003,
         animation: google.maps.Animation.BOUNCE,
         title: 'Map 03',
