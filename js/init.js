@@ -60,17 +60,6 @@ function sedes($this) {
     }
 }
 
-// function sede ($this) {
-//     var idElemContent = jQuery($this).attr('href');
-//     var elemContent = jQuery(idElemContent);
-//     if (elemContent.hasClass('contentShowX')) {
-//         elemContent.removeClass('contentShowX');
-//     } else {
-//         elemContent.siblings().removeClass('contentShowX');
-//         elemContent.addClass('contentShowX');
-//     }
-// }
-
 //Page 004 - 005
 
 function showVentajas($this) {
@@ -108,9 +97,6 @@ function hideContebtVentajas() {
         jQuery('.btnMenu').removeClass('btnMenuMostrar');
         jQuery('.imgBtnLeft').removeClass('imgBtnLeftActive');
         jQuery('.imgBtnRight').removeClass('imgBtnRightActive');
-        // jQuery('.tituloLeft, .tituloRight').removeClass('tituloMostrar');
-        // jQuery('.bg').removeClass('bgMostrar');
-        // jQuery('.bgDown').removeClass('bgDownMostrar');
         jQuery('.btnMenuGallery').removeClass('btnMenuGalleryMostrar');
         jQuery('.contentGallery').removeClass('contentGalleryMostrar');
         jQuery('.contentMostrar').removeClass('contentMostrar');

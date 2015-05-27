@@ -1279,7 +1279,7 @@ html,body {
 .p10 .bg.bgMostrar, .p11 .bg.bgMostrar {
 	-webkit-transform: translateY(0);
     position: absolute;
-	top: 12%;
+	top: 8.5%;
 }
 
 .p10 .bg, .tituloLeft {
