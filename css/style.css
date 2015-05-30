@@ -1607,8 +1607,9 @@ html,body {
 	margin: auto !important;
 }
 
-.textUp img {
+.textUp .textoDos {
   margin-left: 112px !important;
+  margin-top: 26px !important;
 }
 
 .textBottom {
