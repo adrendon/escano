@@ -1607,6 +1607,10 @@ html,body {
 	margin: auto !important;
 }
 
+.textUp img {
+  margin-left: 112px !important;
+}
+
 .textBottom {
 	top: 65%;
 }
