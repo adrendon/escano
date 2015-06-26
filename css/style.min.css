@@ -60,9 +60,9 @@
 .images_2 li:nth-child(1){-webkit-animation-delay:.7s}.images_2 li:nth-child(2){-webkit-animation-delay:.8s}.images_2 li:nth-child(3){-webkit-animation-delay:.9s}
 .images_2 li:nth-child(4){-webkit-animation-delay:1s}.images_2 li:nth-child(5){-webkit-animation-delay:1s}.images_2 li:nth-child(6){-webkit-animation-delay:1.2s}
 #fb5 .fb5-page-book ul li a{display:block}.contenido{width:100%}.content001,.content002,.content003,.content004,.content005,.content006{-webkit-transform:translateX(1000px);-webkit-transition:-webkit-transform .4s;bottom:0;left:0;margin:auto!important;padding:0!important;position:absolute;right:0;top:0}
-.content001{background:url('../img/2_3/quienes_somos.png') no-repeat!important;height:257px!important;width:902px!important}.content003{background:url('../img/2_3/mision.png') no-repeat!important;width:911px!important;height:262px!important}
-.content004{background:url('../img/2_3/vision.png') no-repeat!important;width:911px!important;height:228px!important}.content005{background:url('../img/2_3/valores.png') no-repeat!important;width:508px!important;height:393px!important}
-.content006{background:url('../img/2_3/reconocimientos.png') no-repeat!important;width:861px!important;height:591px!important}.contenido .slide{-webkit-transform:translateX(0)}
+.content001{background:url('../img/2_3/quienes_somos.png') no-repeat!important;height:277px!important;width:863px!important}.content003{background:url('../img/2_3/mision.png') no-repeat!important;height:277px!important;width:863px!important}
+.content004{background:url('../img/2_3/vision.png') no-repeat!important;height:241px!important;width:863px!important}.content005{background:url('../img/2_3/valores.png') no-repeat!important;height:375px!important;width:501px!important}
+.content006{background:url('../img/2_3/reconocimientos.png') no-repeat!important;height:581px!important;width:863px!important}.contenido .slide{-webkit-transform:translateX(0)}
 .contenido p{color:#fff!important;font-family:'champagne'!important;font-size:34px!important}.img4{background:url('../img/4_5/foto_big.png')}
 .block_left,.block_Right{bottom:0;height:546px;left:0;margin:auto!important;position:absolute;right:0;top:120px;width:707px;-webkit-transition:-webkit-transform .4s}
 .block_left{-webkit-transform:translateX(-1000px)}.block_Right{-webkit-transform:translateX(1000px)}.blockLeft{-webkit-transition:-webkit-transform .4s;-webkit-transform:translateX(-1000px)}
@@ -106,6 +106,6 @@
 .sedesThumbs li img:hover{-webkit-transform:scale(1.1);transform:scale(1.1)}.sedesThumbs li img.img-zoom{width:296px}.transition{-webkit-transform:scale(2);-moz-transform:scale(2);-o-transform:scale(2);transform:scale(2)}
 .sedesThumbs li .title{margin-top:30px!important}.sedes{position:absolute;top:40%}.sede{position:absolute}.marque{position:absolute;bottom:6.5%}.informaticaTitle{position:absolute;top:12%}
 .blockInformatica{position:absolute;top:28%}.right{right:0}.itemsServicios{position:absolute;top:38%}.direccion{bottom:-12%;left:0;margin:auto!important;position:absolute;right:0}
-.textUp,.textBottom{left:0;margin:auto!important;position:absolute;right:0;top:30%}.textUp img,.textBottom img{margin:auto!important}.textBottom{top:65%}
-.redes{top:54%;margin:0 auto!important;padding:0!important;position:absolute;text-align:center!important;width:100%!important}.redes li{display:inline-block}
+.textUp,.textBottom{left:0;margin:auto!important;position:absolute;right:0;top:30%}.textUp img,.textBottom img{margin:auto!important}.textUp .textoDos{margin-left:112px!important;margin-top:26px!important}
+.textBottom{top:65%}.redes{top:54%;margin:0 auto!important;padding:0!important;position:absolute;text-align:center!important;width:100%!important}.redes li{display:inline-block}
 .photos{display:inline-block;position:absolute;top:3.8%}.photos li{margin-bottom:2%!important}.photosLeft{left:14%}.photosRight{right:14%}
