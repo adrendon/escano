@@ -1305,10 +1305,24 @@ html,body {
 	position: absolute;
 	top: 4%;
 }
+
 .imagesGallery {
   left: 9%;
   position: absolute;
   top: 13%;
+}
+
+.sedesGallery {
+	left: 5%;
+  	top: 28%;
+}
+
+.sedesGallery li {
+	margin-bottom: 3% !important;
+}
+
+.sedesGallery li:last-child {
+	margin-bottom: 0 !important;
 }
 
 .delay001 {
@@ -1374,25 +1388,25 @@ html,body {
 	margin: auto !important;
 }
 
-.imagesPage14 li{
+.imagesPage16 li{
 	position: absolute;
 	margin-left: 8% !important;
 }
 
-.imagesPage14 li:nth-child(1) {
+.imagesPage16 li:nth-child(1) {
 	top: 15%;
 }
 
-.imagesPage14 li:nth-child(2) {
+.imagesPage16 li:nth-child(2) {
 	top: 40%;
 }
 
-.imagesPage14 li:nth-child(3) {
+.imagesPage16 li:nth-child(3) {
 	top: 65%;
 	margin-left: 4% !important;
 }
 
-.contentPage014 > div{
+.contentPage016 > div{
 	-webkit-transform: translateX(1000px);
 	-webkit-transition: -webkit-transform 0.4s;
 	bottom: 0;
@@ -1404,11 +1418,11 @@ html,body {
 	top: 0;
 }
 
-.contentPage014 .slide {
+.contentPage016 .slide {
   -webkit-transform: translateX(0);
 }
 
-.contentPage014 img {
+.contentPage016 img {
 	bottom: 0;
 	left: 0;
 	margin: auto !important;

@@ -101,7 +101,7 @@ function hideContebtVentajas() {
         jQuery('.contentGallery').removeClass('contentGalleryMostrar');
         jQuery('.contentMostrar').removeClass('contentMostrar');
         jQuery('.contentShowX').removeClass('contentShowX');
-        jQuery('.contentPage014 > div').removeClass('slide');
+        jQuery('.contentPage016 > div').removeClass('slide');
     }, delayTwo);
 }
 
@@ -200,18 +200,50 @@ function galleryItems($this) {
 }
 
 
-//Page 013 - 014
+//Page 014 - 015
+
+function gallerysedes($this) {
+    var indexMenuGallery = jQuery($this).parent().parent().attr('data-item');
+    var subMenuGallery = jQuery('.galleryContent').find('.btnMenuGallery');
+    var idElemMenu = jQuery(subMenuGallery).parent().parent().find('.imagesGalleryBig .galleryPage .contentGallery');
+    var elemtMenu = jQuery(idElemMenu);
+
+    if (jQuery('.btnMenuGallery[data-item="' + indexMenuGallery + '"]').hasClass('btnMenuGalleryMostrar')) {
+        jQuery('.btnMenuGallery[data-item="' + indexMenuGallery + '"]').removeClass('btnMenuGalleryMostrar');
+    } else {
+        jQuery('.btnMenuGallery').removeClass('btnMenuGalleryMostrar');
+        jQuery('.btnMenuGallery[data-item="' + indexMenuGallery + '"]').toggleClass('btnMenuGalleryMostrar');
+    }
+
+    if (elemtMenu.hasClass('contentGalleryMostrar')) {
+        elemtMenu.removeClass('contentGalleryMostrar');
+    }
+}
+
+function galleryItemsSedes($this) {
+    var idElemContent = jQuery($this).parent().attr('href');
+    var elemContent = jQuery(idElemContent);
+    if (elemContent.hasClass('contentGalleryMostrar')) {
+        elemContent.removeClass('contentGalleryMostrar');
+    } else {
+        elemContent.siblings().removeClass('contentGalleryMostrar');
+        elemContent.addClass('contentGalleryMostrar');
+    }
+}
+
+
+//Page 016 - 017
 
 function contactenos($this) {
     var idContent = jQuery($this).parent().attr('href');
-    var subMenu = jQuery('.p15').find('.thumbnails');
-    var mapas = jQuery('.p15').find('.iframe');
+    var subMenu = jQuery('.p17').find('.thumbnails');
+    var mapas = jQuery('.p17').find('.iframe');
 
     var elemContent = jQuery(idContent);
     if (elemContent.hasClass('slide')) {
         elemContent.toggleClass('slide');
     } else {
-        jQuery('.contentPage014 > div').removeClass('slide');
+        jQuery('.contentPage016 > div').removeClass('slide');
         elemContent.toggleClass('slide');
     }
 
@@ -225,8 +257,8 @@ function contactenos($this) {
 }
 
 function mapas($this) {
-    var subMenu = jQuery('.p15').find('.thumbnails');
-    var subMenuGallery = jQuery('.contentPage014').find('.contentPage');
+    var subMenu = jQuery('.p17').find('.thumbnails');
+    var subMenuGallery = jQuery('.contentPage016').find('.contentPage');
 
     if (subMenu.hasClass('contentShowX')) {
         subMenu.toggleClass('contentShowX');
