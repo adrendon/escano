@@ -441,7 +441,7 @@ window.onload = function () {
         name: 'Stylo001'
       };
 
-    var image = 'img/14_15/marcador.png';
+    var image = 'img/16_17/marcador.png';
 
     var marker001 = new google.maps.Marker({
         position: mapPrado,
