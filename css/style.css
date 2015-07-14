@@ -1654,3 +1654,10 @@ html,body {
 .photosRight {
     right: 14%;
 }
+
+#itemSede001 {
+	bottom: 0;
+	height: 324px;
+	margin: auto 0 !important;
+	top: 0;
+}
