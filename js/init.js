@@ -379,99 +379,114 @@ window.onload = function () {
             ]
         }
     ];
-      var prado = new google.maps.LatLng(6.257522,-75.564547);
-      var mapPrado = new google.maps.LatLng(6.257522,-75.564547);
+    try{
+        var prado = new google.maps.LatLng(6.257522,-75.564547);
+        var mapPrado = new google.maps.LatLng(6.257522,-75.564547);
 
-      var santafe = new google.maps.LatLng(6.554111,-75.822972);
-      var mapSantafe = new google.maps.LatLng(6.554111,-75.822972);
+        var santafe = new google.maps.LatLng(6.554111,-75.822972);
+        var mapSantafe = new google.maps.LatLng(6.554111,-75.822972);
 
-      var mayorca = new google.maps.LatLng(6.161903,-75.605361);
-      var mapMayorca = new google.maps.LatLng(6.161903,-75.605361);
+        var mayorca = new google.maps.LatLng(6.161903,-75.605361);
+        var mapMayorca = new google.maps.LatLng(6.161903,-75.605361);
 
-      var mapOptions001 = {
-        zoom: 18,
-         mapTypeControl: false,
-        zoomControl: true,
-        zoomControlOptions: {
-            style: google.maps.ZoomControlStyle.LARGE,
-            position: google.maps.ControlPosition.LEFT_TOP,
-          mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-        },
-        mapTypeId: MY_MAPTYPE_ID,
-        scaleControl: false,
-        streetViewControl: false,
-        center: prado
-      }
+        var mapOptions001 = {
+          zoom: 18,
+           mapTypeControl: false,
+          zoomControl: true,
+          zoomControlOptions: {
+              style: google.maps.ZoomControlStyle.LARGE,
+              position: google.maps.ControlPosition.LEFT_TOP,
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+          },
+          mapTypeId: MY_MAPTYPE_ID,
+          scaleControl: false,
+          streetViewControl: false,
+          center: prado
+        }
 
-       var mapOptions002 = {
-        zoom: 18,
-         mapTypeControl: false,
-        zoomControl: true,
-        zoomControlOptions: {
-            style: google.maps.ZoomControlStyle.LARGE,
-            position: google.maps.ControlPosition.LEFT_TOP,
-          mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-        },
-        mapTypeId: MY_MAPTYPE_ID,
-        scaleControl: false,
-        streetViewControl: false,
-        center: santafe
-      }
+         var mapOptions002 = {
+          zoom: 18,
+           mapTypeControl: false,
+          zoomControl: true,
+          zoomControlOptions: {
+              style: google.maps.ZoomControlStyle.LARGE,
+              position: google.maps.ControlPosition.LEFT_TOP,
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+          },
+          mapTypeId: MY_MAPTYPE_ID,
+          scaleControl: false,
+          streetViewControl: false,
+          center: santafe
+        }
 
-      var mapOptions003 = {
-        zoom: 18,
-         mapTypeControl: false,
-        zoomControl: true,
-        zoomControlOptions: {
-            style: google.maps.ZoomControlStyle.LARGE,
-            position: google.maps.ControlPosition.LEFT_TOP,
-          mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-        },
-        mapTypeId: MY_MAPTYPE_ID,
-        scaleControl: false,
-        streetViewControl: false,
-        center: mayorca
-      }
+        var mapOptions003 = {
+          zoom: 18,
+           mapTypeControl: false,
+          zoomControl: true,
+          zoomControlOptions: {
+              style: google.maps.ZoomControlStyle.LARGE,
+              position: google.maps.ControlPosition.LEFT_TOP,
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+          },
+          mapTypeId: MY_MAPTYPE_ID,
+          scaleControl: false,
+          streetViewControl: false,
+          center: mayorca
+        }
+        
+    }
+    catch(f){
+        //console.log('f',f);
+    }
 
-      var mapa001 = new google.maps.Map(document.getElementById('map-canvas001'), mapOptions001);
-      var mapa002 = new google.maps.Map(document.getElementById('map-canvas002'), mapOptions002);
-      var mapa003 = new google.maps.Map(document.getElementById('map-canvas003'), mapOptions003);
-
-      var styledMapOptions = {
+      var existingMap = document.getElementById('map-canvas001')==null?false:true;
+      //if(!existingMap) return;
+      //console.log('aqui',existingMap);
+    try{
+        var mapa001 = new google.maps.Map(document.getElementById('_map-canvas001'), mapOptions001);
+        var mapa002 = new google.maps.Map(document.getElementById('_map-canvas002'), mapOptions002);
+        var mapa003 = new google.maps.Map(document.getElementById('_map-canvas003'), mapOptions003);
+        //console.log(mapa001,mapa002,mapa003);
+        var styledMapOptions = {
         name: 'Stylo001'
-      };
+        };
 
-    var image = 'img/16_17/marcador.png';
+        var image = 'img/16_17/marcador.png';
 
-    var marker001 = new google.maps.Marker({
-        position: mapPrado,
-        map: mapa001,
-        animation: google.maps.Animation.BOUNCE,
-        title: 'Map 01',
-        icon: image
-    });
+        var marker001 = new google.maps.Marker({
+            position: mapPrado,
+            map: mapa001,
+            animation: google.maps.Animation.BOUNCE,
+            title: 'Map 01',
+            icon: image
+        });
 
-    var marker002 = new google.maps.Marker({
-        position: mapSantafe,
-        map: mapa002,
-        animation: google.maps.Animation.BOUNCE,
-        title: 'Map 02',
-        icon: image
-    });
+        var marker002 = new google.maps.Marker({
+            position: mapSantafe,
+            map: mapa002,
+            animation: google.maps.Animation.BOUNCE,
+            title: 'Map 02',
+            icon: image
+        });
 
-    var marker003 = new google.maps.Marker({
-        position: mapMayorca,
-        map: mapa003,
-        animation: google.maps.Animation.BOUNCE,
-        title: 'Map 03',
-        icon: image
-    });
+        var marker003 = new google.maps.Marker({
+            position: mapMayorca,
+            map: mapa003,
+            animation: google.maps.Animation.BOUNCE,
+            title: 'Map 03',
+            icon: image
+        });
 
-      var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+        var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 
-      mapa001.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-      mapa002.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-      mapa003.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+        mapa001.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+        mapa002.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+        mapa003.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+    }
+    catch(e){
+        //console.log('e',e)
+    }
+
 
     }
 
