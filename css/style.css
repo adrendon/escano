@@ -1876,7 +1876,7 @@ html,body {
 }
 
 .sedesThumbs {
-  left: 1.7%;
+  /*left: 1.7%;*/
   margin: auto !important;
   position: absolute;
   top: 31%;
@@ -1885,7 +1885,7 @@ html,body {
 
 .sedesThumbs li {
   display: inline-block;
-  margin: 0 0.7% !important;
+  margin: 0 2% !important;
 }
 
 .sedesThumbs li img {
