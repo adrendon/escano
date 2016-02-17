@@ -1577,8 +1577,8 @@ html,body {
 }
 
 .sedesGallery {
-	left: 5%;
-  	top: 28%;
+    left: 23%;
+    top: 42%;
 }
 
 .sedesGallery li {
@@ -1757,8 +1757,9 @@ html,body {
 }
 
 .thumbnails {
-    position: relative;
-    top: 7%;
+	left: 19%;
+	position: relative;
+	top: 7%;
 }
 
 .thumbnails li {
